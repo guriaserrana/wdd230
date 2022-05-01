@@ -1,0 +1,22 @@
+@media only screen and (min-width: 37.5em) {
+
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(2){
+        display:block;
+        margin:0.5rem;
+    }
+
+    main picture{
+        margin: auto;
+    }
+    main section picture img{
+        width: 200px;
+       
+    }
+ 
+      
+} 
+/* end of midia query*/
