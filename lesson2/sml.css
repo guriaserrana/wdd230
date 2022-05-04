@@ -28,8 +28,7 @@ h2 {
 }
 main{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;   
     font-size: 0.8rem;
 }
 main section{
@@ -49,11 +48,10 @@ main picture{
 }
 main section picture img{
     width: 200px;
-    align-items: center;
-   
+    align-items: center;   
 }
 
-section:nth-child(2){
+section:nth-child(0){
     display:none;
     margin:0.5rem;
 }
