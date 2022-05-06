@@ -54,10 +54,10 @@ header {
     display: grid;
     grid-template-columns: 75px auto;
 }
-header img {width: 150px; margin-left: 10px;}
+header img {width: 130px; margin-left: 10px;}
 header div{margin-left: 100px;}
-header h1 {margin: 0; font-family:'Oswald', sans-serif; font-size: 50px;}
-header h2 {margin: 1; font-weight: normal; font-family:'Oswald', sans-serif; font-size: 30px;}
+header h1 {margin: 0; font-family:'Oswald', sans-serif; font-size: 45px;}
+header h2 {margin: 1; font-weight: normal; font-family:'Oswald', sans-serif; font-size: 25px;}
 
 /*----------- NAVIGATION --------------*/
 nav {
