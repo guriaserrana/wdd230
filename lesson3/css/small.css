@@ -5,28 +5,22 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /*------------- CONTACT ----------*/
-.container {
-    display: block;
-    margin: 0;        
-    background-color: #744f16;
-    color: #f7f7f7;
-    padding: 5px;   
+.container {         
+  background-color: #744f16;
+  color: #f7f7f7;       
 }
-.container ul li {
-    display: inline;
-    font-size: 14px;  
+.container ul {
+  list-style-type: none; padding: 0; margin: 0;
+}
+.container ul li {   
+  display: block;
+  color: #f7f7f7;
+  padding: .5rem 0;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
 }
 
-#mail  {
-    margin-left: 80px;
-}
-
-#subscribe {
-    margin-left:100px;
-}
-#submt {
-    margin-left:20px;
-}
 
 /* code for buttom to subscribe ------------------------------------------------*/
 .submit {
@@ -43,7 +37,6 @@ outline: 0;
 text-align: center;
 width: 130px;
 height: 40px;
-
 }  
 
 /*----------- BODY --------------*/
@@ -63,7 +56,7 @@ header {
 }
 header img {width: 150px; margin-left: 10px;}
 header div{margin-left: 100px;}
-header h1 {margin: 0; font-family:'Oswald', sans-serif; font-size: 80px;}
+header h1 {margin: 0; font-family:'Oswald', sans-serif; font-size: 50px;}
 header h2 {margin: 1; font-weight: normal; font-family:'Oswald', sans-serif; font-size: 30px;}
 
 /*----------- NAVIGATION --------------*/
