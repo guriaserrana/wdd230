@@ -1,0 +1,162 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*------------- CONTACT ----------*/
+.container {
+    display: block;
+    margin: 0;        
+    background-color: #744f16;
+    color: #f7f7f7;
+    padding: 5px;   
+}
+.container ul li {
+    display: inline;
+    font-size: 14px;  
+}
+
+#mail  {
+    margin-left: 80px;
+}
+
+#subscribe {
+    margin-left:100px;
+}
+#submt {
+    margin-left:20px;
+}
+
+/* code for buttom to subscribe ------------------------------------------------*/
+.submit {
+padding: 5px 5px;
+font-size: 20px;    
+font-family: 'Oswald', sans-serif;
+background-color: #cecece;
+border: 1px solid #cecece;
+border-radius: 10px;
+cursor: pointer;
+color: black;
+transition: 0.5s;
+outline: 0;
+text-align: center;
+width: 130px;
+height: 40px;
+
+}  
+
+/*----------- BODY --------------*/
+body {
+    background-color: #f7f7f7;
+    font-size: 16px; 
+    font-family: 'Open Sans', sans-serif;   
+    
+}
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 75px auto;
+}
+header img {width: 150px; margin-left: 10px;}
+header div{margin-left: 100px;}
+header h1 {margin: 0; font-family:'Oswald', sans-serif; font-size: 80px;}
+header h2 {margin: 1; font-weight: normal; font-family:'Oswald', sans-serif; font-size: 30px;}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #133058; font-family: 'Oswald', sans-serif;}
+nav ul {
+    list-style-type: none; padding: 0; margin: 0;}
+
+nav ul li a {
+    display: block;
+    color: #f7f7f7;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #744f16; color: #cecece;}
+nav ul li.active a {
+    background-color: #547fa9; color: #f7f7f7;}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%; min-height: 10rem;}
+p, h1{font-family: 'Open Sans', sans-serif;}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #cecece;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+/*----------- COLOR-SCHEME --------------*/
+:root {
+    /* change the values below to your colors from your palette */
+    --color1-color: #f7f7f7;
+    --color2-color: #744f16;
+    --color3-color: #133058;
+    --color4-color: #547fa9;
+    --color5-color: #cecece;
+}    
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 20%;   /*dividir 100% pela quantidade de colunas*/
+    height: 3em;
+  }
+
+  .color1 {
+    background-color: var(--color1-color);
+  }
+  .color2 {
+    background-color: var(--color2-color);
+  }
+  .color3 {
+    background-color: var(--color3-color);
+  } 
+  .color4{
+    background-color: var(--color4-color);
+  }
+  .color5{
+    background-color: var(--color5-color);
+  }
+
+
+/*----------- TYPOGRAPHY --------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+
+.fonttls {font-family: 'Oswald', sans-serif;}
+.fontsub {font-family: 'Open Sans', sans-serif;}
+.fonttex {font-family: 'Open Sans', sans-serif;}
+.fontgds {font-family: 'Oswald', sans-serif;}
+    
+.fonts {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .fonts th {
+    background-color: #999;
+  }
+  .fonts td{
+    width: 20%;  
+    height: 3em;
+  }  
+ 
