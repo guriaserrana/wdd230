@@ -1,0 +1,6 @@
+@media only screen and (min-width: 64rem){
+
+    nav ul li a{
+        padding: .5rem 1rem; /*estreita o tamanho do menu, para a tela larga*/
+    }
+}

@@ -1,0 +1,140 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+header {
+    padding: .5rem 2%;
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 75px auto;
+    margin: 0 auto;
+    max-width: 980px;
+}
+header img {width: 130px; margin-left: 10px;}
+header div{margin-left: 100px;}
+header h1 {margin: 0; font-family:'Oswald', sans-serif; font-size: 45px;}
+header h2 {margin: 1; font-weight: normal; font-family:'Oswald', sans-serif; font-size: 25px;}
+
+.date {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    background-color: #744f16;
+    border: 1px solid #744f16;
+    color: white;
+	padding: 0.75rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 980px;    
+}
+
+h1, h2, p {margin:0 2vw;}
+nav button {
+    margin: 2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;    
+    font-family:'Oswald', sans-serif;
+} 
+nav {
+	background-color: #133058;
+	margin: 0 auto;
+	max-width: 980px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    
+}
+nav ul li a {
+	display: block;
+	color: lightblue;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.2rem;	
+
+}
+
+nav ul li a:hover {
+    background-color: #744f16; color: #cecece;}
+nav ul li.active a {
+    background-color: #547fa9; color: #f7f7f7;}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+/*mostra apenas o icone do hamburguer*/
+#hamburgerBtn span:nth-child(1) {display: block;} 
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+/*mostra o icone do hamburguer enquanto o menu está fechado e quando aberto, mostar o X*/
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1rem;
+    margin: 0 auto;    
+    padding: 0.75rem;
+    max-width: 980px;
+    font-family:'Oswald', sans-serif;
+}
+main article {
+	margin: 1rem;	
+	padding: 1rem;
+	background-color: rgb(218, 232, 253);   
+}
+
+main article ul {
+	margin: 0;
+}
+main picture {
+	display: flex;
+	margin: 1rem;    
+}
+main img {
+    width: 200px;
+}
+
+#meeting, #sale, #festa, #life, #trend, #more{
+    text-align: left;
+}
+#trend, #more, ul {
+    list-style-type: none;
+        
+    
+}
+
+article:nth-child(0){
+    display:none;
+    margin:0.5rem;
+}
+
+footer {         
+    background-color: #a0a7a7;
+    color: black;  
+    text-align: center;
+    margin: 0 auto;
+    max-width: 980px;     
+}
+footer ul {
+    list-style-type: none; padding: 0; margin: 0;
+}
+footer ul li {   
+    display: block;
+    color: black;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+}
+footer img {
+    width: 100px; margin-left: 10px;
+}
+

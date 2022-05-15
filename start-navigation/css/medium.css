@@ -1,0 +1,19 @@
+@media only screen and (min-width: 35rem) {
+
+    nav button {display: none;}/*tira o menu hamburguer*/
+
+    nav ul#primaryNav{
+        display: flex; /*para mostrar o menu lado a lado*/
+
+        /*justify-content: flex-end ou center; para alinhar o menu em outra posição*/
+        
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);/*alinha a borda lateral do menu com o texto*/
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);/*cria uma borda lateral*/
+    }
+
+}

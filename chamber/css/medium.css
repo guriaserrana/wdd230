@@ -1,0 +1,28 @@
+@media only screen and (min-width: 35rem) {
+
+    nav button {display: none;}/*tira o menu hamburguer*/
+
+    nav ul#primaryNav{
+        display: flex;         
+        margin-left: 2vw;
+        border-left: 1px solid transparent;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid transparent;
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(2){
+        display:block;      
+    }
+
+    section:nth-child(3){
+        grid-column: span 2;      
+    }
+
+}
