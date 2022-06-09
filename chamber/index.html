@@ -45,44 +45,62 @@
 </nav>
         
 <!-- CONTENT HERE -->
-<main>
+<main>    
 
-    <article id="meeting">
-        <h2>Merchants meeting</h2>
+    <section class="banner">               
+        <img src="images/town.jpg" alt="Lages Town"> 
+        <div class="venha">            
+            <h1>Visit Us!</h1>            
+        </div>           
+    </section>
+
+    <article class="today">        
+        <section class="weather3">            
+            <h3>Weather Summary</h3>
+            <img src="images/temperature.png" alt="Sun and clounds">
+            <p>Label: Value</p>
+            <p>Label: Value</p>
+            <p>Label: Value</p>
+        </section>
+        <hr>
+        <h3>Trending this mounth</h3>
+        <div>                   
+            <img src="images/trails.jpg" alt="Photo by Josh Willink on Pexels">        
+            <a href="#">Trails</a>
+        </div>
+        <br>
+        <div>
+            <img src="images/restaurants.jpg" alt="Photo by Ella Olsson on Pexels">
+            <a href="#">Restaurants</a>           
+        </div>        
+        <br>
+    </article>    
+
+    <article class="meeting">
+                    
+        <img src="images/merchants.jpg"  alt="Photo by ICSA on Pexels">
         
-        <picture>            
-            <img src="images/merchants.jpg"  alt="Photo by ICSA on Pexels">
-        </picture>
+        <h2>Merchants meeting</h2>
         <p>Praesent id justo in neque elementum ultrices. 
             Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
             per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. 
             Praesent vitae arcu tempor neque lacinia pretium. Morbi imperdiet, 
             mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin 
             sem purus in lacus. Nam quis nulla. </p>
-    </article>
+    </article> 
 
-    <article id="sale">
-        <h2>Find the best sales.</h2>  
-        <br>               
-        <img src="images/sale.jpg" alt="Photo by Max Fischer on Pexels">    
-    </article>
-
-    <article id="trend">
-        <h2 id="trending">Trending this week</h2>    
-        <br>
-        <picture>                        
-            <ul>                 
-                <li><a href="#">Trails</a></li>
-                <img src="images/trails.jpg" alt="Photo by Josh Willink on Pexels">
-                <li><a href="#">New Restaurant</a></li>
-                <img src="images/restaurants.jpg" alt="Photo by Ella Olsson on Pexels">              
-            </ul>  
-        </picture>               
-    </article>
-        
-    <article id="festa">
-        <h2>Festa do Pinhão</h2>   
-        <br>               
+    <article class="life">            
+        <img src="images/highlander.jpg" alt="Photo by The creators community on Pexels">
+        <h2>Highlander's Life</h2>            
+        <p>Suspendisse sagittis ultrices augue. Mauris 
+            metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere 
+            lacus quis dolor. Praesent id justo in neque elementum ultrices. 
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+            per inceptos hymenaeos. In convallis.</p>               
+    </article>    
+                            
+    <article class="festa">            
+        <h2 class="titlefesta">Festa do Pinhão</h2>                        
         <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. 
             In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, 
             magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet 
@@ -98,21 +116,9 @@
             molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean 
             id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. 
             Pellentesque ipsum. Nulla non arcu lacinia neque</p>
-    </article>    
-
-    <article id="life">
-        <h2>Highlander's Life</h2>
-        <br>
-        <img src="images/highlander.jpg" alt="Photo by The creators community on Pexels">
-        <br>
-        <p>Suspendisse sagittis ultrices augue. Mauris 
-            metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere 
-            lacus quis dolor. Praesent id justo in neque elementum ultrices. 
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
-            per inceptos hymenaeos. In convallis.</p>               
-    </article>
-
-    <article id="more">
+    </article> 
+    
+    <article class="more">
         <h2>See More</h2>
         <br>
         <ul>
@@ -121,23 +127,27 @@
             <li><a href="#">Chamber</a></li>
             <li><a href="#">Lages</a></li>
         </ul>           
-    </article>
+    </article>           
 
 </main>
     
 <!-- FOOTER HERE -->   
 <footer>
-    <img src="images/serranos.png" alt="logo">
-    <ul>
-        <li id="name">Highlanders</li>
-        <li id="adress">Rua Coronel Córdova, 370</li>
-        <li>Contact us: (49) 2222-0000</li>
-        <li id="mail">merchantschamber-lages@scmail.com.br </li><hr>        
-        <li>&copy;<span id="year"></span> &bull; Ana Paula Ferreira &bull; Brazil</li>
-        <li>Last Update:<span id="date"></span></li>       
-    </ul>  
+    <img src="images/serranos.png" alt="logo"> 
+    <div class="adress">   
+        <h3>Highlanders</h3>
+        <p>Benjamin Constant Street, 13</p>
+        <p>Contact us: (49) 2222-0000</p>
+        <p>merchantschamber-lages@scmail.com.br </p>
+        <hr>
+        <p>&copy;<span id="year"></span> &bull; Ana Paula Ferreira &bull; Brazil</p>
+        <p>Last Update:<span id="date"></span></p> 
+    </div>   
 </footer>
     
 <script src="js/scripts.js"></script>
 </body>
 </html>
+
+
+

@@ -4,6 +4,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Oswald';
+    
+}
+body {
+    margin-bottom: 100px;
+}
 
 header {
     padding: .5rem 2%;
@@ -76,65 +87,109 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 
+
 main {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 1rem;
     margin: 0 auto;    
-    padding: 0.75rem;
+    padding: 0.75rem;    
     max-width: 980px;
-    font-family:'Oswald', sans-serif;
+    font-family:'Oswald', sans-serif;    
+    background:#f7f7f7;
 }
 main article {
 	margin: 1rem;	
-	padding: 1rem;
-	background-color: rgb(218, 232, 253);   
+	padding: auto;
+	background-color:#cecece;
+    border-radius: 5px;
+}
+.banner {
+    margin: 1rem;	
+	padding: auto;
+    display: block;
+}
+.venha {
+    position: absolute;
+    top: 450px;
+    left: 140px;    
+    border: 2px solid #cecece;
+    padding: .5rem;
+    box-shadow: 0 0 30px #7e8383;
+    color:#f7efef;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
 main article ul {
 	margin: 0;
 }
-main picture {
+main picture div {
 	display: flex;
 	margin: 1rem;    
 }
 main img {
-    width: 200px;
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
 }
 
-#meeting, #sale, #festa, #life, #trend, #more{
-    text-align: left;
+.today {
+    padding: 10px;
+    text-align: center;
 }
-#trend, #more, ul {
-    list-style-type: none;
-        
-    
+.weather3 img {
+    width: 90px;
+    margin: auto;
 }
+.weather3 h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2, p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.today, .more, ul {
+    list-style-type: none;       
+}
+
+.more {       
+    display: block;
+    text-align: center;
+    padding: 20px;
+}  
 
 article:nth-child(0){
     display:none;
     margin:0.5rem;
-}
+} 
+/*FOOTER----------------------------------------------*/
 
 footer {         
     background-color: #a0a7a7;
-    color: black;  
-    text-align: center;
-    margin: 0 auto;
-    max-width: 980px;     
+    color: black;    
+    padding: .5rem 2%;   
+    display: grid;
+    grid-template-columns: 75px auto;
+    margin: auto;
+    max-width: 980px;       
 }
-footer ul {
-    list-style-type: none; padding: 0; margin: 0;
+footer img {    
+    margin: auto;
+    width: 150px;
 }
-footer ul li {   
-    display: block;
-    color: black;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: 16px;
-    text-align: center;
+footer p {
+    font-size: small;
 }
-footer img {
-    width: 100px; margin-left: 10px;
+.adress {
+    margin: auto;
 }
+
+
+
+
+
 
