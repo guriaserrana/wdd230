@@ -100,13 +100,13 @@ main {
 }
 main article {
 	margin: 1rem;	
-	padding: auto;
+	padding: 0 auto;
 	background-color:#cecece;
     border-radius: 5px;
 }
 .banner {
     margin: 1rem;	
-	padding: auto;
+	padding: 0 auto;
     display: block;
 }
 .venha {
