@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Home Page">
+<meta name="author" content="Ana Paula Ferreira">
+
+<title>Chamber Home Page Build</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- HEADER HERE -->
+	<header>
+        <img src="images/highlanders.png" alt="logo">
+        <div>
+            <h1>Highlanders</h1>
+            <h2>Lages Merchant's Chamber</h2> 
+        </div>   
+    </header> 
+
+    <div class="date"></div>
+   
+ 
+<!-- NAVIGATION HERE -->
+<nav>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>       
+	<ul id="primaryNav">
+		<li class="active"><a href="index.html">Home</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="location.html">Location</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>
+        
+<!-- CONTENT HERE -->
+<main>    
+
+    <picture class="banner">  
+        <source media="(min-width: 1050px" srcset="images/heroSrc.jpg"> 
+        <source media="(min-width: 900px" srcset="images/heroSrc1.jpg">
+        <source media="(min-width: 650px" srcset="images/heroSrc2.jpg">
+        <source media="(min-width: 400px" srcset="images/heroSrc3.jpg">         
+        <img class="photo"src="images/heroSrc" alt="Hero Example"> 
+    </picture>                               
+  
+
+    <article class="today">        
+        <section class="weather3">            
+            <h3>Weather Summary</h3>
+            <img src="images/temperature.png" alt="Sun and clounds">
+            <p>Current Temperature is <span id="temp">46</span>&deg;</p>
+            <p>Current Wind Speed is <span id="speed">8</span>mph</p>
+            <p id="chill">message</p>
+        </section>
+        <hr>
+        <h3>Trending this mounth</h3>
+        <div>                   
+            <img src="images/trails.jpg" alt="Photo by Josh Willink on Pexels">        
+            <a href="#">Trails</a>
+        </div>
+        <br>
+        <div>
+            <img src="images/restaurants.jpg" alt="Photo by Ella Olsson on Pexels">
+            <a href="#">Restaurants</a>           
+        </div>        
+        <br>
+    </article>    
+
+    <article class="meeting">
+                    
+        <img src="images/merchants.jpg"  alt="Photo by ICSA on Pexels">
+        
+        <h2>Merchants meeting</h2>
+        <p>Praesent id justo in neque elementum ultrices. 
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+            per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. 
+            Praesent vitae arcu tempor neque lacinia pretium. Morbi imperdiet, 
+            mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin 
+            sem purus in lacus. Nam quis nulla. </p>
+    </article> 
+
+    <article class="life">            
+        <img src="images/highlander.jpg" alt="Photo by The creators community on Pexels">
+        <h2>Highlander's Life</h2>            
+        <p>Suspendisse sagittis ultrices augue. Mauris 
+            metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere 
+            lacus quis dolor. Praesent id justo in neque elementum ultrices. 
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+            per inceptos hymenaeos. In convallis.</p>               
+    </article>    
+                            
+    <article class="festa">            
+        <h2 class="titlefesta">Festa do Pinhão</h2>                        
+        <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. 
+            In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, 
+            magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet 
+            sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris 
+            metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere 
+            lacus quis dolor. Praesent id justo in neque elementum ultrices. 
+            Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+            per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. 
+            Praesent vitae arcu tempor neque lacinia pretium. Morbi imperdiet, 
+            mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin 
+            sem purus in lacus. Nam quis nulla. Integer malesuada. In in enim a 
+            arcu imperdiet malesuada. Sed vel lectus. Donec odio urna, tempus 
+            molestie, porttitor ut, iaculis quis, sem. Phasellus rhoncus. Aenean 
+            id metus id velit ullamcorper pulvinar. Vestibulum fermentum tortor id mi. 
+            Pellentesque ipsum. Nulla non arcu lacinia neque</p>
+    </article> 
+    
+    <article class="more">
+        <h2>See More</h2>
+        <br>
+        <ul>
+            <li><a href="#">Serra Catarinense</a></li>
+            <li><a href="#">Newsletters</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Lages</a></li>
+        </ul>           
+    </article>           
+
+</main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <img src="images/serranos.png" alt="logo"> 
+    <div class="adress">   
+        <h3>Highlanders</h3>
+        <p>Benjamin Constant Street, 13</p>
+        <p>Contact us: (49) 2222-0000</p>
+        <p>merchantschamber-lages@scmail.com.br </p>
+        <hr>
+        <p>&copy;<span id="year"></span> &bull; Ana Paula Ferreira &bull; Brazil</p>
+        <p>Last Update:<span id="date"></span></p> 
+    </div>   
+</footer>
+    
+<script src="js/scripts.js"></script>
+</body>
+</html>
+
+
+

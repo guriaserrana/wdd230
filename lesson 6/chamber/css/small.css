@@ -1,0 +1,195 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Oswald';
+    
+}
+body {
+    margin-bottom: 100px;
+}
+
+header {
+    padding: .5rem 2%;
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 75px auto;
+    margin: 0 auto;
+    max-width: 980px;
+}
+header img {width: 130px; margin-left: 10px;}
+header div{margin-left: 100px;}
+header h1 {margin: 0; font-family:'Oswald', sans-serif; font-size: 45px;}
+header h2 {margin: 1; font-weight: normal; font-family:'Oswald', sans-serif; font-size: 25px;}
+
+.date {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    background-color: #744f16;
+    border: 1px solid #744f16;
+    color: white;
+	padding: 0.75rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 980px;    
+}
+
+h1, h2, p {margin:0 2vw;}
+nav button {
+    margin: 2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;    
+    font-family:'Oswald', sans-serif;
+} 
+nav {
+	background-color: #133058;
+	margin: 0 auto;
+	max-width: 980px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    
+}
+nav ul li a {
+	display: block;
+	color: lightblue;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1.2rem;	
+
+}
+
+nav ul li a:hover {
+    background-color: #744f16; color: #cecece;}
+nav ul li.active a {
+    background-color: #547fa9; color: #f7f7f7;}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+/*mostra apenas o icone do hamburguer*/
+#hamburgerBtn span:nth-child(1) {display: block;} 
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+/*mostra o icone do hamburguer enquanto o menu está fechado e quando aberto, mostar o X*/
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 1rem;
+    margin: 0 auto;    
+    padding: 0.75rem;    
+    max-width: 980px;
+    font-family:'Oswald', sans-serif;    
+    background:#f7f7f7;
+}
+main article {
+	margin: 1rem;	
+	padding: 0 auto;
+	background-color:#cecece;
+    border-radius: 5px;
+}
+.banner {
+    margin: 1rem;	
+	padding: 0 auto;
+    display: block;
+}
+.venha {
+    position: absolute;
+    top: 450px;
+    left: 140px;    
+    border: 2px solid #cecece;
+    padding: .5rem;
+    box-shadow: 0 0 30px #7e8383;
+    color:#f7efef;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+main article ul {
+	margin: 0;
+}
+main picture div {
+	display: flex;
+	margin: 1rem;    
+}
+main img {
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+
+.today {
+    padding: 10px;
+    text-align: center;
+}
+.weather3 img {
+    width: 90px;
+    margin: auto;
+}
+.weather3 h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2, p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.today, .more, ul {
+    list-style-type: none;       
+}
+
+.more {       
+    display: block;
+    text-align: center;
+    padding: 20px;
+}  
+
+article:nth-child(0){
+    display:none;
+    margin:0.5rem;
+} 
+/*FOOTER----------------------------------------------*/
+
+footer {         
+    background-color: #a0a7a7;
+    color: black;    
+    padding: .5rem 2%;   
+    display: grid;
+    grid-template-columns: 75px auto;
+    margin: auto;
+    max-width: 980px;       
+}
+footer img {    
+    margin: auto;
+    width: 150px;
+}
+footer p {
+    font-size: small;
+}
+.adress {
+    margin: auto;
+}
+
+
+
+
+
+
