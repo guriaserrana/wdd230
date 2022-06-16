@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Images with lazy loading">
+    <meta name="author" content="Ana Paula Ferreira">
+
+    <title>Progressive Loading</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="css/basic.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>We Love Running</h1>     
+
+        <picture>           
+            <img data-lazy="images/img (1).jpg"  
+            loading="lazy" width="400" height="267"
+            alt="running on the beach">
+        </picture>
+        <picture>            
+            <img data-lazy="images/img (2).jpg"
+            loading="lazy" width="400" height="267"
+            alt="competition">
+        </picture>
+        <picture>           
+            <img data-lazy="images/img (3).jpg"
+            loading="lazy" width="400" height="267"
+            alt="running in the woods">
+        </picture>
+        <picture>           
+            <img data-lazy="images/img (4).jpg"
+            loading="lazy" width="400" height="267"
+            alt=" woman training to run">
+        </picture>
+        <picture>            
+            <img data-lazy="images/img (5).jpg"
+            loading="lazy" width="400" height="267"
+            alt="man training to run">
+        </picture>
+        <picture>           
+            <img data-lazy="images/img (6).jpg"
+            loading="lazy" width="400" height="267"
+            alt="support each other">
+        </picture>
+
+    </main>
+    
+    <script defer src="js/scripts.js"></script>
+
+    
+</body>
+</html>
+
+
+<!-- const images = document.querySelectorAll('[data-src]');
+
+function preloadImage(img) {
+    const src = img.getAttribute('data-src');
+    if(!src) {
+        return
+    }
+
+    img.src = src
+}
+
+const imgOptions = {};
+
+const imgObserver = new IntersectionObserver((entries, 
+    imgObserver) => {entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+          preloadImage(entry.target);
+          imgObserver.unobserve(entry.target);
+        }
+    })
+}, imgOptions);
+
+images.forEach(image => {
+    imgObserver.observe(image)
+}); -->
