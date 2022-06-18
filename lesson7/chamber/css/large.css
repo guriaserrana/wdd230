@@ -1,0 +1,61 @@
+@media only screen and (min-width: 64rem){
+
+    nav ul li a{
+        padding: .5rem 1rem; 
+    }   
+
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .banner {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;    
+        display: block;
+    }
+
+    /* .venha {
+        position: absolute;
+        top: 380px;
+        left: 650px;    
+        border: 2px solid #547fa9;
+        padding: .5rem;
+        box-shadow: 0 0 30px #133058;
+        color: #436586;
+        font-size: 40px;
+        border-radius: 10px;
+    } */  
+
+    .festa {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;    
+        display: block;
+    }
+
+    .more {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;    
+        display: block;
+    }
+   
+    section:nth-child(3){
+        grid-column: span 1;
+        display:block;  
+    }
+
+    footer img {    
+        margin: auto;
+        margin-left: 180px;
+        width: 200px;
+    }
+
+    /*DISCOVER----------------------*/  
+   
+    .titleDisc {      
+        text-align: center;
+    }
+
+    picture .discover {
+        text-align: center;
+    }
+}

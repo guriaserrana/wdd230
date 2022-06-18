@@ -1,0 +1,58 @@
+@media only screen and (min-width: 35rem) {
+
+    nav button {display: none;}/*tira o menu hamburguer*/
+
+    nav ul#primaryNav{
+        display: flex;         
+        margin-left: 2vw;
+        border-left: 1px solid transparent;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid transparent;
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .banner {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;    
+        display: block;
+    } 
+    /* .venha {
+        position: absolute;
+        top: 300px;
+        left: 80px;    
+        border: 2px solid #744f16;
+        padding: .5rem;
+        box-shadow: 0 0 30px #3b280b;
+        color:#49320e;
+        font-size: 20px;
+        border-radius: 10px;
+    } */
+    .more {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;    
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }     
+
+    section:nth-child(2){
+        display:block;      
+    }
+
+    section:nth-child(3){
+        grid-column: span 2;      
+    }
+
+    /*DISCOVER----------------------*/
+  
+    .titleDisc {
+        text-align: center;
+    }
+
+}
