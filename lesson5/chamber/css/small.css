@@ -27,7 +27,7 @@ header {
 header img {width: 130px; margin-left: 10px;}
 header div{margin-left: 100px;}
 header h1 {margin: 0; font-family:'Oswald', sans-serif; font-size: 45px;}
-header h2 {margin: 0; font-weight: normal; font-family:'Oswald', sans-serif; font-size: 25px;}
+header h2 {margin: 1; font-weight: normal; font-family:'Oswald', sans-serif; font-size: 25px;}
 
 .date {
     display: block;
@@ -100,13 +100,13 @@ main {
 }
 main article {
 	margin: 1rem;	
-	padding: auto;
+	padding: 0 auto;
 	background-color:#cecece;
     border-radius: 5px;
 }
 .banner {
     margin: 1rem;	
-	padding: auto;
+	padding: 0 auto;
     display: block;
 }
 .venha {
@@ -142,7 +142,7 @@ main img {
     width: 90px;
     margin: auto;
 }
-.weather3 h2 {
+.weather3 h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
