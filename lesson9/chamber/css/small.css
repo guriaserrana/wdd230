@@ -67,6 +67,7 @@ nav ul li a {
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 1.2rem;	
+
 }
 
 nav ul li a:hover {
@@ -85,9 +86,7 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-nav .social {
-    text-align: right;
-}
+
 
 main {
 	display: grid;
@@ -110,7 +109,7 @@ main article {
 	padding: 0 auto;
     display: block;
 }
-/* .venha {
+.venha {
     position: absolute;
     top: 450px;
     left: 140px;    
@@ -120,18 +119,19 @@ main article {
     color:#f7efef;
     font-size: 20px;
     border-radius: 10px;
-} */
+}
 
 main article ul {
 	margin: 0;
 }
 main picture div {
-	display: block;
+	display: flex;
 	margin: 1rem;    
 }
 main img {
-    max-width: 100%;   
-      
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
 }
 
 .today {
@@ -181,54 +181,12 @@ footer img {
     margin: auto;
     width: 150px;
 }
-footer p, .map, .visit {
+footer p {
     font-size: small;
-    text-align: center;
 }
 .adress {
     margin: auto;
 }
-
-
-/*DISCOVER----------------------*/
-
-.titleDisc {
-    text-align: center;
-}
-
-.maindisc {
-    display: block;
-    grid-template-columns: 1fr;    
-    text-align: center;
-    align-items: center;
-}
-
-img[data-src] {
-    filter: blur(0.2em);
-}
-
-img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-    text-align: center;
-}
-.imgdisc {
-    border:#547fa9;
-    width: 80%;    
-}
-.imgdisc:hover {
-    box-shadow: 0 0 50px rgb(39, 39, 39);
-}
-.text{
-    margin-left: 90px;
-    margin-right: 90px;
-   
-}
-
-
-
-
-
 
 
 
