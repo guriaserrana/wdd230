@@ -1,51 +1,48 @@
-@media only screen and (min-width: 64rem){
+/* 64rem is also 1028px when bsaefont is 16px */
+@media only screen and (min-width: 64rem) {
 
-    nav ul li a{
-        padding: .5rem 1rem; 
-    }
+    nav button {display: none;}    
 
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+    nav ul#primaryNav {display: flex; margin-left: 2vw;}
+    
+    nav ul li a {border: none;}
 
-    .banner {
-        grid-column: 1 / 4;
-        grid-row: 1 / 2;    
-        display: block;
-    }
+    main {grid-template-columns: 1fr 1fr 1fr 1fr;}
 
-    .venha {
-        position: absolute;
-        top: 380px;
-        left: 650px;    
-        border: 2px solid #547fa9;
-        padding: .5rem;
-        box-shadow: 0 0 30px #133058;
-        color: #436586;
-        font-size: 40px;
-        border-radius: 10px;
+    .banner {grid-column: 1 / 4; grid-row: 2 / 3;}
+    .spotlight {grid-column: 4 / 5; grid-row: 2 / 3;}  
+    .spotlight img {width: 50%; height: auto;}
+    .spotlight2 {grid-column: 4 / 5; grid-row: 3 / 4;}
+    .spotlight2 img {width: 50%; height: auto;}
+    .weather {grid-column: 1 / 2; grid-row: 3 / 4;}
+    .weather img {width: 30%; height: auto;}
+    .meet {grid-column: 2 / 4; grid-row: 3 / 4;}
+    .meet img {   
+        width: 35%; 
+        height: auto;    
+        float:left;    
+        margin-right: 2%;
+        padding-bottom: .5rem;  
+    }    
+    .life {grid-column: 1 / 2; grid-row: 4 / 5;}
+    .life img {
+        width: 45%; 
+        height: auto;    
+        float:left;    
+        margin-right: 2%;
+        padding-bottom: .5rem;  
     }
+    .news {grid-column: 2 / 5; grid-row: 4 / 5;} 
+    
 
-    .festa {
-        grid-column: 1 / 3;
-        grid-row: 3 / 4;    
-        display: block;
-    }
 
-    .more {
-        grid-column: 3 / 4;
-        grid-row: 3 / 4;    
-        display: block;
-    }
-   
-    section:nth-child(3){
-        grid-column: span 1;
-        display:block;  
-    }
+    section:nth-child(3){grid-column: span 1; display:block;}
 
-    footer img {    
+    footer img {
         margin: auto;
         margin-left: 180px;
-        width: 200px;
+        width: 150px;
     }
+
+
 }
