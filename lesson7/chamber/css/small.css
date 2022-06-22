@@ -91,8 +91,7 @@ main {
     grid-gap: .5rem;
     font-family:'Oswald', sans-serif;
 }
-main section {		
-	padding: 0 auto;
+main section {	
 	background-color:#cecece;
     border-radius: 10px;
 }
