@@ -1,0 +1,35 @@
+/*35rem is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {  
+      
+
+    .banner {grid-column: 1 / 3; grid-row: 2 / 4;}   
+    .weather {grid-column: 1 / 2; grid-row: 4 / 5;}
+    .weather img {width: 20%; height: auto;}
+    .meet {grid-column: 2 / 3; grid-row: 4 / 5;}
+    .meet img {   
+        width: 35%; 
+        height: auto;    
+        float:left;    
+        margin-right: 2%;
+        padding-bottom: .5rem;  
+    }
+    .news {grid-column: 1 / 3; grid-row: 5 / 6;} 
+    .spotlight {grid-column: 1 / 2; grid-row: 6 / 7;}  
+    .spotlight img {width: 35%; height: auto;}
+    .spotlight2 {grid-column: 2 / 3; grid-row: 6 / 7}
+    .spotlight2 img {width: 35%; height: auto;}
+    .life {grid-column: 1 / 3; grid-row: 7 / 8;}
+    .life img {
+        width: 20%; 
+        height: auto;    
+        float:left;    
+        margin-right: 2%;
+        padding-bottom: .5rem;  
+    }
+    
+
+    section:nth-child(2){
+        display:block;      
+    }
+
+}
