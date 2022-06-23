@@ -1,0 +1,27 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.container {display: flex; margin: auto;}
+
+.table1 {width: 100%; text-align: center; border-collapse: collapse; }
+.table1 thead, tfoot {background: #005d6f; font-weight: bold; color: #fff; font-size:x-large}
+.table1 tbody tr:nth-child(1n){font-family: 'Ubuntu', sans-serif; font-size: 18px;}
+
+tfoot {font-size:smaller; color: black;} 
+
+h1 {text-align: center; margin-top: 20px; margin-bottom: 20px;}
+
+.line {color: black;}
+
+td, th {border: 1px solid black; padding: 8px; text-align: center;}
+
+tr.line, .line9 {background-color: #2F4D53;}
+tr.line2 {background-color: #62827F;}
+tr.line3, .line5, .line7 {background-color: #93b1a7;}
+tr.line4, .line8 {background-color: #c5edac;}
+
+td.C6 {background-color: #62827F;}
+th.A7 {font-style: italic;}
+th.A6, td.B6 {background-color:#c5edac;}
+
+    
