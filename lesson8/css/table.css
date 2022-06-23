@@ -7,7 +7,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 .table1 thead, tfoot {background: #005d6f; font-weight: bold; color: #fff; font-size:x-large}
 .table1 tbody tr:nth-child(1n){font-family: 'Ubuntu', sans-serif; font-size: 18px;}
 
-tfoot {font-size:smaller; color: black;} 
+tfoot {font-size:small; color: black;} 
 
 h1 {text-align: center; margin-top: 20px; margin-bottom: 20px;}
 
