@@ -48,7 +48,8 @@
 </nav>
         
 <!-- CONTENT HERE -->
-<main>    
+<main>
+    <section class="titlepage"><h1 class="titlepage">Home</h1></section>
 
     <picture class="banner">  
         <source media="(min-width: 1050px)" srcset="images/lagesbannerA.jpg"> 
@@ -56,15 +57,18 @@
         <source media="(min-width: 650px)" srcset="images/lagesbannerC.jpg">
         <source media="(min-width: 400px)" srcset="images/lagesbannerD.jpg">         
         <img class="photo" src="images/lagesbannerA.jpg" alt="Cathedral Lages"> 
-        <div id="banner_overlay">
-            <h2 class="btn">Festa do Pinhão	</h2>
-            <h3 class="btn">June 16th to 26th.</h3>
-            <button id="banner_btn">Buy Tickets</button>
-          </div>
+        <div id="message">
+            <br>
+            <hr>
+            🤝🏼 Come join us for the chamber meet and 
+            greet Wednesday at 7:00 p.m.    
+            <hr>        
+            <button id="banner_btn">Join the Chamber!</button>
+        </div>        
     </picture>
     
     <section class="news">
-        <h2>Festa do Pinhão</h2>
+        <h2>News Release</h2>
         <hr>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, blanditiis repellendus 
             repellat voluptas nemo accusamus labore consequuntur ex rerum officiis non culpa ad odio. 
@@ -84,8 +88,8 @@
             Pellentesque ipsum. Nulla non arcu lacinia neque</p>
     </section>
 
-    <section class="spotlight">
-        <h2>Trending this mounth</h2>
+    <section class="spotlight1">
+        <h2>Spotlight 1</h2>
         <hr>
         <h3>Trails</h3>
         <div>                   
@@ -95,7 +99,7 @@
     </section>
 
     <section class="spotlight2">
-        <h2>Trending this mounth</h2>
+        <h2>Spotlight 2</h2>
         <hr>
         <h3>Restaurants</h3>        
         <div>
@@ -104,8 +108,8 @@
         <a href="#">See More</a>                         
     </section>
 
-    <section class="life">  
-        <h2>Highlander's Life</h2>  
+    <section class="join">  
+        <h2>Join</h2>  
         <hr>         
         <img src="images/highlander.jpg" alt="Photo by The creators community on Pexels">                  
     <p>Suspendisse sagittis ultrices augue. Mauris 
@@ -113,8 +117,8 @@
         lacus quis dolor. </p>
     </section>
 
-    <section class="meet">
-        <h2>Merchants meeting</h2>
+    <section class="event">
+        <h2>Event</h2>
         <hr>
         <img src="images/merchants.jpg" alt="Photo by ICSA on Pexels">
         <p>Praesent id justo in neque elementum ultrices. 
@@ -124,7 +128,7 @@
     </section>
 
     <section class="weather">
-        <h2>Weather Summary</h2>
+        <h2>Current Weather</h2>
         <hr>
         <img src="images/temperature.png" alt="Sun and clounds">
         <p>Current Temperature is <span id="temp">46</span>°</p>
@@ -147,6 +151,10 @@
             <a target="blank" href="https://www.google.com.br/maps/place/Lages,+SC/@-27
             .8045227,-50.3873718,12z/data=!3m1!4b1!4m5!3m4!1s0x94e01f2d554bdff5:0x1d1feec5ba930bb7!
             8m2!3d-27.8178873!4d-50.3264204">Link to the Map</a>
+        </div>
+        <hr>
+        <div class="lv">
+            <span id="lastVisit"></span>
         </div>
         <hr>
         <p>&copy;<span id="year"></span> &bull; Ana Paula Ferreira &bull; Brazil</p>
