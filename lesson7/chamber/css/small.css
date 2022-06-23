@@ -100,7 +100,7 @@ main section {
 /*BANNER MESSAGE*/
 #message {
     position: absolute;
-    top: 40%;
+    top: 80%;
     left: 10%;
     width: 340px;   
     backdrop-filter: blur(3px);

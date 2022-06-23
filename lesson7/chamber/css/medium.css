@@ -2,7 +2,7 @@
 @media only screen and (min-width: 35rem) {  
 
      /*BOTÃO BANNER*/
-     #message {width: 370px; top: 50%; left: 35%;}  
+     #message {width: 370px; top: 100%; left: 30%;}  
      /*BOTÃO BANNER*/      
 
     .titlepage {grid-column: 1 / 5; grid-row: 1 / 2;} 
