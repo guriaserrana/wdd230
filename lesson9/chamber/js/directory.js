@@ -34,12 +34,12 @@ function displayCompanies(company) {
     // and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', company.imageurl);
     portrait.setAttribute('alt', 'logo for' + " " + company.name);
-    portrait.setAttribute('width', 100)
+    portrait.setAttribute('width', 200)
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
     card.appendChild(portrait);
+    card.appendChild(h2);
     card.appendChild(p1);
     card.appendChild(p2);
     card.appendChild(website);  
