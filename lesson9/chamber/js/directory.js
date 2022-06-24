@@ -17,21 +17,24 @@ function displayCompanies(company) {
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
-    let p3 = document.createElement('p');   
+    let website = document.createElement('a');  //adding website link 
     let portrait = document.createElement('img');
   
     
     h2.textContent = company.company;     
     p1.textContent = company.address;   
-    p2.textContent = `phone: ${company.phonenumber}`;    
-    p3.textContent = company.site;
+    p2.textContent = `phone: ${company.phonenumber}`; 
+    //adding website link
+    website.textContent = company.site;   
+    website.setAttribute('href', company.site);
+    website.setAttribute('target', '_blank');
 
 
     // Build the image attributes by using the setAttribute method for the src, alt,
     // and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', company.imageurl);
     portrait.setAttribute('alt', 'logo for' + " " + company.name);
-    portrait.setAttribute('width', 400)
+    portrait.setAttribute('width', 100)
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
@@ -39,30 +42,27 @@ function displayCompanies(company) {
     card.appendChild(portrait);
     card.appendChild(p1);
     card.appendChild(p2);
-    card.appendChild(p3);
-   
+    card.appendChild(website);  
     
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards2').appendChild(card);
   };
 
-  const gridbutton = document.querySelector("#grid");
-  const listbutton = document.querySelector("#list");
-  const display = document.querySelector(".cards2");
-  
-  
-  
-  gridbutton.addEventListener("click", () => {
-      
-      display.classList.add("grid");
-      display.classList.remove("list");
-  });
-  
-  listbutton.addEventListener("click", showList);
-  
-  function showList() {
-      display.classList.add("list");
-      display.classList.remove("grid");
-  }
-  
+    const gridbutton = document.querySelector("#grid");
+    const listbutton = document.querySelector("#list");
+    const display = document.querySelector(".cards2");  
+    
+    gridbutton.addEventListener("click", () => {
+        
+        display.classList.add("grid");
+        display.classList.remove("list");
+    });
+    
+    listbutton.addEventListener("click", showList);
+    
+    function showList() {
+        display.classList.add("list");
+        display.classList.remove("grid");
+    }
+    

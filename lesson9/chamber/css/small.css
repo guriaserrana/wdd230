@@ -290,35 +290,55 @@ form input.submit {
     grid-gap: 0.8em;
     padding: 1em;
     margin: 1em;    
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.288);
-    background-color: #547fa9;  
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.404);
+    background-color: #547fa9; 
+    text-align: center;
   }  
 
 #cards section img{
 width: 50%;
-margin-left: 25%;
-border-radius:60%; 
+border-radius:20px; 
 text-align: center;   
 }  
 
-#page_n {grid-column: 1 / 6; grid-row: 1 / 2;}
-#grid-list {grid-column: 1 / 6; grid-row: 2 / 3;}
-#cards {grid-column: 1 / 6; grid-row: 3 / 8;}
+#page3 {grid-column: 1 / 6; grid-row: 1 / 2;}
+#grid-list {grid-column: 1 / 6; grid-row: 2 / 3; text-align: center; padding: 1%;}
+#cards {grid-column: 1 / 6;}
 
+/*estilo do título/company*/ 
 #cards section h2 {
     text-shadow: 0 2px 3px rgba(22, 5, 5, 0.301);
     text-align: center;
-    font-size:25px;
+    font-size:20px;
+    margin-top: 20px;
 } 
 
+/*tamanhos de fonte e espaços entre o card e textos*/
 #cards section p {
     text-align: center;
-    font-size:16px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-
+    font-size:16px;    
+    margin-bottom: 10px;
 }
+#cards section  {padding: 5%;}
+#cards section a {font-size: 16px;}
+
+/*estilo do botão*/
+#grid, #list {
+    font-size: 25px; 
+    background: linear-gradient(#133058, #547fa9) ; 
+    border-color: #133058 ; 
+    color:#f7f7f7
+}
+#grid, #list:hover{color: yellow;}
+
+/*tamanho do botão*/
+.menu button {
+    padding: 0.8rem;
+}
+
+
+
+
 
 
 
