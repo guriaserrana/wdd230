@@ -282,6 +282,47 @@ form input.submit {
 #obrigado {color: #744f16;}
 
 
+/*------DIRECTORY---------*/
+
+.cards2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 0.8em;
+    padding: 1em;
+    margin: 1em;    
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.288);
+    background-color: #547fa9;  
+  }  
+
+#cards section img{
+width: 50%;
+margin-left: 25%;
+border-radius:60%; 
+text-align: center;   
+}  
+
+#page_n {grid-column: 1 / 6; grid-row: 1 / 2;}
+#grid-list {grid-column: 1 / 6; grid-row: 2 / 3;}
+#cards {grid-column: 1 / 6; grid-row: 3 / 8;}
+
+#cards section h2 {
+    text-shadow: 0 2px 3px rgba(22, 5, 5, 0.301);
+    text-align: center;
+    font-size:25px;
+} 
+
+#cards section p {
+    text-align: center;
+    font-size:16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+
+}
+
+
+
+
   
 
 

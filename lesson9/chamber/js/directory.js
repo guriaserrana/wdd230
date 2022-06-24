@@ -11,24 +11,17 @@ fetch(requestURL)
     companies.forEach(displayCompanies);
   });
 
-// function getNumberWithOrdinal(n) {
-// var s = ["th", "st", "nd", "rd"],
-//     v = n % 100;
-// return n + (s[(v - 20) % 10] || s[v] || s[0]);
-// }
-
 function displayCompanies(company) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
-    let p3 = document.createElement('p');
-    let p4 = document.createElement('p');
+    let p3 = document.createElement('p');   
     let portrait = document.createElement('img');
   
     
-    h2.textContent = company.name;     
+    h2.textContent = company.company;     
     p1.textContent = company.address;   
     p2.textContent = `phone: ${company.phonenumber}`;    
     p3.textContent = company.site;

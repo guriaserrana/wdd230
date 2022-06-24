@@ -2,7 +2,7 @@
     "companies": [
       {
         "company": "Binotto S/A Logistica Transporte e Distribuição",
-        "address": "Rua Major Bibiano Rodrigues de Lima, 194 - Ferrovia, Lages - SC",
+        "address": "Rua Maj. Bibiano Rodrigues de Lima, 194 - Ferrovia",
         "zipcode": 88.514400,        
         "phonenumber": 49.32211800,
         "site": "https://www.binotto.com.br",        
@@ -10,7 +10,7 @@
       },
       {
         "company": "Firbal - Administração e Participações",
-        "address": "Rua Benjamin Constant, 127 - Centro, Lages-SC",
+        "address": "Rua Benjamin Constant, 127 - Centro",
         "zipcode": 88.501110,        
         "phonenumber": 49.32231661,
         "site": "https://www.firbal.com.br",        
@@ -18,7 +18,7 @@
       },
       {
         "company": "Vossko do Brasil",
-        "address": "Rua Acy Aviano Varela Xavier, 105 CDL - Lages, SC",
+        "address": "Rua Acy Aviano Varela Xavier, 105 - CDL",
         "zipcode": 88.517625,        
         "phonenumber": 49.32212300,
         "site": "https://www.vosskodobrasil.com.br/novo/",        
@@ -26,7 +26,7 @@
       },      
       {
         "company": "Madepar Industria e Comercio de Madeiras",
-        "address": "Rua Heliodoro Muniz, 1480 - Área Industrial, Lages-SC",
+        "address": "Rua Heliodoro Muniz, 1480 - Área Industrial",
         "zipcode": 88.514600,        
         "phonenumber": 49.32510699,
         "site": "https://www.madepardoors.com",        
@@ -34,7 +34,7 @@
       },      
       {
         "company": "Obradec Revestimentos",
-        "address": "Rua Mateus Junqueira, 1300 Sta Helena - Lages - SC",
+        "address": "Rua Mateus Junqueira, 1300 - Sta Helena",
         "zipcode": 88.504570,        
         "phonenumber": 49.32514800,
         "site": "https://www.obradec.com/revestimentos/",        
@@ -42,7 +42,7 @@
       },      
       {
         "company": "Jzago Center",
-        "address": "Avenida Duque de Caxias, 1174 - Sagrado Coração de Jesus - Lages-SC",
+        "address": "Avenida Duque de Caxias, 1174 - Sagrado Coração de Jesus",
         "zipcode": 88.508001,        
         "phonenumber": 49.32216800,
         "site": "https://www.jzago.com.br",        
@@ -50,7 +50,7 @@
       },      
       {
         "company": "Cepar Empreendimentos",
-        "address": "Av. Duque de Caxias, 600. 1° Andar. Sagrado Coração de Jesus, Lages-SC",
+        "address": "Av. Duque de Caxias, 600 (1° Andar) - Sagrado Coração de Jesus",
         "zipcode": 88.501903,        
         "phonenumber": 49.32510566,
         "site": "https://ceparonline.com.br",        
@@ -58,7 +58,7 @@
       },      
       {
         "company": "Mill Indústria de Serras Ltda",
-        "address": "R. José Gayoso Neves, 200, Ferrovia, Lages-SC",
+        "address": "R. José Gayoso Neves, 200 - Ferrovia",
         "zipcode": 88.526650,        
         "phonenumber": 49.32216200,
         "site": "https://www.mill.com.br",        
@@ -66,7 +66,7 @@
       },
       {
         "company": "Lubrilages",
-        "address": "Rua Bruno Luersen, 873, Jardim Panoramico, Lages-SC",
+        "address": "Rua Bruno Luersen, 873 - Jardim Panoramico",
         "zipcode": 88.524005,        
         "phonenumber": 8007048866,
         "site": "http://www.lubrilages.com.br",        
@@ -74,12 +74,27 @@
       },
       {
         "company": "Fruticultura Malke Ltda",
-        "address": "Rua Malke Litwin Iochpe, 01 - Ferrovia, Lages-SC",
+        "address": "Rua Malke Litwin Iochpe, 01 - Ferrovia",
         "zipcode": 88.509720,        
         "phonenumber": 49.32515200,
         "site": "http://www.malke.com.br/index.php",        
         "imageurl": "https://images.pexels.com/photos/3019836/pexels-photo-3019836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      }       
-      
+      },  
+      {
+        "company": "Supermecados Myata Ltda",
+        "address": "Av. Luiz de Camões, 90 – Coral",
+        "zipcode": 88.523000,        
+        "phonenumber": 49.32212400,
+        "site": "https://supermyata.com.br",        
+        "imageurl": "https://images.pexels.com/photos/4053267/pexels-photo-4053267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "company": "NDD Núcledo de Desenvolvimento Digital",
+        "address": "Rua Dr. Walmor Ribeiro, 431 - Coral",
+        "zipcode": 88.523060,        
+        "phonenumber": 49.32518000,
+        "site": "https://ndd.tech",        
+        "imageurl": "https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }      
     ]
   }
