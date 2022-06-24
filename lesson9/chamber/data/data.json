@@ -1,0 +1,85 @@
+{
+    "companies": [
+      {
+        "company": "Binotto S/A Logistica Transporte e Distribuição",
+        "address": "Rua Major Bibiano Rodrigues de Lima, 194 - Ferrovia, Lages - SC",
+        "zipcode": 88.514400,        
+        "phonenumber": 49.32211800,
+        "site": "https://www.binotto.com.br",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/semi-caminhao-volvo-branco-na-berma-da-estrada-2199293/"
+      },
+      {
+        "company": "Firbal - Administração e Participações",
+        "address": "Rua Benjamin Constant, 127 - Centro, Lages-SC",
+        "zipcode": 88.501110,        
+        "phonenumber": 49.32231661,
+        "site": "https://www.firbal.com.br",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/homem-sentado-na-frente-do-computador-380769/"
+      },
+      {
+        "company": "Vossko do Brasil",
+        "address": "Rua Acy Aviano Varela Xavier, 105 CDL - Lages, SC",
+        "zipcode": 88.517625,        
+        "phonenumber": 49.32212300,
+        "site": "https://www.vosskodobrasil.com.br/novo/",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/fabrica-industrial-maquina-equipamento-5953729/"
+      },      
+      {
+        "company": "Madepar Industria e Comercio de Madeiras",
+        "address": "Rua Heliodoro Muniz, 1480 - Área Industrial, Lages-SC",
+        "zipcode": 88.514600,        
+        "phonenumber": 49.32510699,
+        "site": "https://www.madepardoors.com",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/caixas-baus-arcas-embalagens-4483610/"
+      },      
+      {
+        "company": "Obradec Revestimentos",
+        "address": "Rua Mateus Junqueira, 1300 Sta Helena - Lages - SC",
+        "zipcode": 88.504570,        
+        "phonenumber": 49.32514800,
+        "site": "https://www.obradec.com/revestimentos/",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/foto-de-mulher-vestida-de-amarelo-descendo-escadas-em-uma-sala-de-escritorio-2451567/"
+      },      
+      {
+        "company": "Jzago Center",
+        "address": "Avenida Duque de Caxias, 1174 - Sagrado Coração de Jesus - Lages-SC",
+        "zipcode": 88.508001,        
+        "phonenumber": 49.32216800,
+        "site": "https://www.jzago.com.br",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/foto-aerea-de-edificio-395537/"
+      },      
+      {
+        "company": "Cepar Empreendimentos",
+        "address": "Av. Duque de Caxias, 600. 1° Andar. Sagrado Coração de Jesus, Lages-SC",
+        "zipcode": 88.501903,        
+        "phonenumber": 49.32510566,
+        "site": "https://ceparonline.com.br",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/mulher-de-paleto-azul-2422293/"
+      },      
+      {
+        "company": "Mill Indústria de Serras Ltda",
+        "address": "R. José Gayoso Neves, 200, Ferrovia, Lages-SC",
+        "zipcode": 88.526650,        
+        "phonenumber": 49.32216200,
+        "site": "https://www.mill.com.br",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/adultos-caixas-baus-arcas-6169668/"
+      },
+      {
+        "company": "Lubrilages",
+        "address": "Rua Bruno Luersen, 873, Jardim Panoramico, Lages-SC",
+        "zipcode": 88.524005,        
+        "phonenumber": 8007048866,
+        "site": "http://www.lubrilages.com.br",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/careca-sentado-no-trator-verde-7457016/"
+      },
+      {
+        "company": "Fruticultura Malke Ltda",
+        "address": "Rua Malke Litwin Iochpe, 01 - Ferrovia, Lages-SC",
+        "zipcode": 88.509720,        
+        "phonenumber": 49.32515200,
+        "site": "http://www.malke.com.br/index.php",        
+        "imageurl": "https://www.pexels.com/pt-br/foto/macas-vermelhas-635705/"
+      }       
+      
+    ]
+  }

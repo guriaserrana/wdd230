@@ -19,23 +19,40 @@ function toggleMenu() {
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
-//weather summary 
-const tempNumber = parseFloat(document.getElementById("temp").textContent);
-const speedNumber = parseFloat(document.getElementById("speed").textContent);
+//lazyload 
+const imagesToLoad = document.querySelectorAll("img[data-src]");
 
-let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow(speedNumber, 
-0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
+const imgOptions = {
+    threshold: 0,
+    rootMargin: "0px 0px -200px 0px"
+};
 
-windchill = Math.round(windchill);
+const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {image.removeAttribute('data-src');};
+};
 
-if(tempNumber<=50 && speedNumber >3) {
-    document.getElementById("chill").textContent = "Wind Chill is" + " " + windchill + "\xB0F";
-
-} else {
-    document.getElementById("chill").textContent = "No Wind Chill Today";
+const intersectionCallback = (items, observer) => {
+    items.forEach((item) => {
+        if(item.isIntersecting) {
+            loadImages(item.target);
+            observer.unobserve(item.target)
+        }
+    });
 }
 
+if('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(intersectionCallback, imgOptions); 
+    imagesToLoad.forEach((img) => {
+        observer.observe(img)
+    });
+}
 
+else {
+    imagesToLoad.forEach((img) => {
+        loadImages(img);
+    });
+}
 
 //LAST VISIT
 const visitDisplay = document.querySelector('#lastVisit')
@@ -56,25 +73,3 @@ if (difference == 0) {
 
 lastVisit++;
 localStorage.setItem("visits-ls", lastVisit);
-
-//OVERLAY
-
-    const todayy = new Date();
-    console.log(todayy);
-
-    const dayNumber = todayy.getDay();
-    console.log(dayNumber);
-
-    const element = document.getElementById("message");
-
-    if (dayNumber == 1) {
-        element.classList.add("showme");        
-    } if (dayNumber == 3) {
-        element.classList.add("showme");
-    } else {
-        element.classList.add("hideme");        
-    }
-
-
-
-

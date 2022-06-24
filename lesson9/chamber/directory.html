@@ -30,24 +30,37 @@
         </div>   
     </header> 
 
-    <section class="date">Day, 00 Month, year</section>
+    <div class="date"></div>
+   
  
 <!-- NAVIGATION HERE -->
 <nav>
     <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>       
 	<ul id="primaryNav">
-		<li><a href="index.html"> Home</a></li>
-		<li><a href="products.html"> Products</a></li>
-		<li><a href="location.html"> Location</a></li>
-		<li class="active"><a href="contact.html"> Contact</a></li>
+		<li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+		<li><a href="join.html">Join</a></li>        
+		<li class="active"><a href="directory.html">Directory</a></li>
+        				
+        <li><a target="blank" href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebookIcon" width="25"></a></li>
+        <li><a target="blank" href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagramIcon" width="25"></a></li>
+        <li><a target="blank" href="https://www.twitter.com/"><img src="images/twitter.png" alt="twitterIcon" width="25"></a></li>
 	</ul>
 </nav>
         
 <!-- CONTENT HERE -->
-<main>
+<main id="directory">  
 
-<h1>Working on it!</h1>
-   
+    <h1 class="page_n">Directory</h1>
+        <div class="menu">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+        <section class="cards">
+            <div class="cards2"></div> 
+        </section>
+        
+
 </main>
     
 <!-- FOOTER HERE -->   
@@ -59,11 +72,21 @@
         <p>Contact us: (49) 2222-0000</p>
         <p>merchantschamber-lages@scmail.com.br </p>
         <hr>
+        <div class="map">
+            <a target="blank" href="https://www.google.com.br/maps/place/Lages,+SC/@-27
+            .8045227,-50.3873718,12z/data=!3m1!4b1!4m5!3m4!1s0x94e01f2d554bdff5:0x1d1feec5ba930bb7!
+            8m2!3d-27.8178873!4d-50.3264204">Link to the Map</a>
+        </div>
+        <hr>
         <p>&copy;<span id="year"></span> &bull; Ana Paula Ferreira &bull; Brazil</p>
         <p>Last Update:<span id="date"></span></p> 
-    </div>   
+    </div>  
+    <br> 
 </footer>
     
-<script src="js/scripts.js"></script>
+<script src="js/directory.js"></script>
 </body>
 </html>
+
+
+
