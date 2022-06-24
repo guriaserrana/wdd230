@@ -255,6 +255,7 @@ label.info input, label.info select, label.info textarea {
     width: 100%;
     max-width: 50rem;
     background-color: rgba(255, 253, 253, 0.699);
+    font-style: italic;
 }
   
 form label.level {display: block; padding: 0.75rem 0; color: #333;}    

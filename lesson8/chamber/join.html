@@ -61,28 +61,18 @@
         <fieldset>
             <legend>Personal Information</legend>
 
-            <label class="info">
-                Full name:* <input type="text" name="fullname" required placeholder="Dino da Silva Sauro"/>
-            </label>        
+            <label class="info"><input type="text" name="fullname" required placeholder="Full name*"/></label>        
           
-            <label class="info">
-                Email:*<input type="email" name="email" required placeholder="name@gmail.com"/>
-            </label>
+            <label class="info"><input type="email" name="email" required placeholder="Email*"/></label>           
 
-            <label class="info">
-                Phone:* <input type="tel" name="phone" required placeholder="(22) 2222-2222"/>
-            </label>
+            <label class="info"><input type="tel" name="phone" required placeholder="Phone*"/></label>
 
-            <label class="info">
-                Zip Code:*<input type="text" name="zip-code" required placeholder="222222"/>
-            </label>
+            <label class="info"><input type="text" name="zip-code" required placeholder="Zip Code*"/></label>          
 
-            <label class="info">
-                Occupation:* <input type="text" name="occupation" required placeholder="Lenhador"/>
-            </label>   
-            </fieldset>
+            <label class="info"><input type="text" name="occupation" required placeholder="Occupation*"/></label>   
+        </fieldset>
 
-            <fieldset>
+        <fieldset>
             <legend>Membership Level</legend>
 
             <label class="level">
@@ -101,17 +91,16 @@
             <label class="level">
                 <input type="radio" name="membership" value="gold"/> Gold Membership. <span class="option">(Full access.)</span>
             </label>
-            </fieldset>
+        </fieldset>
 
-            <fieldset>
+        <fieldset>
             <legend>Additional Information</legend>
 
-            <label class="info">Business Description:
-                <textarea name="business-description" rows="5" cols="50" id="ad-info" placeholder="Business description..."></textarea>
+            <label class="info"><textarea name="business-description" rows="5" cols="50" id="ad-info" placeholder="Business description..."></textarea>
             </label>
 
             <input hidden name="date" id="dado"/>
-            </fieldset>
+        </fieldset>
             <input type="submit" value="Join Chamber" class="submit" />
         </form>
         </section>
