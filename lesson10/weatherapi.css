@@ -1,0 +1,41 @@
+
+body {
+    background-color: #10002b;
+    color: #e0aaff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.title{
+    background-color: #3c096c; 
+    text-align: center; 
+    margin-left: 15%;  
+    margin-right: 15%;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.bloco {   
+    background-color: #6f2dbd;
+    animation-name:bloco;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+
+}  
+@keyframes bloco {
+    0%  {background-color: #a663cc;}
+    25% {background-color: #b298dc;}
+    50% {background-color: #b8d0eb;}
+    75% {background-color: #b9faf8;}
+    100% {background-color: #6f2dbd;}
+}
+
+p, h2 {color: #10002b; text-align: center; padding: 20px;}
+p {font-size: 20px;}
+
+figcaption{color: #47126b; text-align: center;;}
+
+img {width: 60px; }
