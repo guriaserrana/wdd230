@@ -21,7 +21,7 @@ body {
     animation-iteration-count: infinite;
     border-radius: 20px;
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 15%;    
     text-align: center;
 
 }  
@@ -36,6 +36,11 @@ body {
 p, h2 {color: #10002b; text-align: center; padding: 20px;}
 p {font-size: 20px;}
 
-figcaption{color: #47126b; text-align: center;;}
+figcaption{color: #47126b; text-align: center;}
 
 img {width: 60px; }
+
+footer p {
+    color: white;
+    font-size: 15px;
+}
