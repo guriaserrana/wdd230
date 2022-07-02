@@ -7,15 +7,7 @@
         "phonenumber": 49.32211800,
         "site": "https://www.binotto.com.br",        
         "imageurl": "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      },
-      {
-        "company": "Firbal Administração e Participações",
-        "address": "Rua Benjamin Constant, 127 - Centro",
-        "zipcode": 88.501110,        
-        "phonenumber": 49.32231661,
-        "site": "https://www.firbal.com.br",        
-        "imageurl": "https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      },
+      },     
       {
         "company": "Vossko do Brasil",
         "address": "Rua Acy Aviano Varela Xavier, 105 - CDL",

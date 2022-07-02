@@ -14,11 +14,10 @@
         console.log(weatherInfo); // this is temporary for development only
 
         currentTemp.innerHTML = `<strong>${weatherInfo.main.temp.toFixed(0)}</strong>`;
-        tempMax.innerHTML = `<strong>${weatherInfo.main.temp_max.toFixed(0)}</strong>`;
-        tempMin.innerHTML = `<strong>${weatherInfo.main.temp_min.toFixed(0)}</strong>`;
-        windSpeed.innerHTML = weatherInfo.wind.speed;
+        // tempMax.innerHTML = `<strong>${weatherInfo.main.temp_max.toFixed(0)}</strong>`;
+        // tempMin.innerHTML = `<strong>${weatherInfo.main.temp_min.toFixed(0)}</strong>`;
+        windSpeed.innerHTML = `${weatherInfo.wind.speed.toFixed(0)}`
         captionDesc.innerHTML = weatherInfo.weather.description;
-    
 
         // const iconsrc = `https://openweathermap.org/img/w/${weatherInfo.weather[0].icon}.png`;
         const desc = weatherInfo.weather[0].description;

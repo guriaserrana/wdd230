@@ -159,17 +159,15 @@ div.hideme{display: none;}
 .weather {
     grid-column: 1 / 3; 
     grid-row: 4 / 5;
-    background-color: #ffee70;
+    background-color: #547fa9;
     animation-name:weather;
     animation-duration: 10s;
     animation-iteration-count: infinite;     
 }
 @keyframes weather {
-    0%  {background-color: #ffb35c;}
-    25% {background-color: #ff7070;}
-    50% {background-color: #e747ff;}
-    75% {background-color: #9747ff;}
-    100% {background-color: #ffee70;}
+    0%  {background-color: #547fa9;}
+    50% {background-color: #133058;}
+    100% {background-color: #cecece;}
 }
 #title-weather {text-shadow: 0 10px 10px rgba(255, 255, 255, 0.993);}
 .weather img {width: 35%; height: auto;}
