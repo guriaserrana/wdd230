@@ -313,7 +313,7 @@ form input.submit {
 button {padding: 0.8rem;}
 
 #titulo {grid-column: 1 / 6; grid-row: 1 / 2;}
-#grid-list {grid-column: 1 / 6; grid-row: 2 / 3; text-align: center; padding: 1%;}
+#grid-list {grid-column: 1 / 6; grid-row: 2 / 3; padding: 1%;}
 .cards {grid-column: 1 / 6;}
 
 .cards2 {
@@ -339,22 +339,21 @@ button {padding: 0.8rem;}
     align-items: stretch;
     gap: 1rem;
 }
-.grid section {flex-direction: column; text-align: center; padding: 1rem;}  
+.grid section {flex-direction: column; padding: 1rem;}  
 .grid section > * {margin: 0.3rem;}
 
 .list {display: flex; flex-direction: column;}
 .list section {
-    flex-direction: row;
-    justify-content: left;
+    flex-direction: row;   
     padding: 1rem;
     margin: 0.2rem;
     display: flex;
     align-items: center;
 }  
-.list section > * {margin: 0 1rem; text-align: left;}  
+.list section > * {margin: 0 1rem;}  
 .list section p {display: none;}     
   
-@media (min-width: 800px) {
+@media (min-width: 500px) {
 .list section img {display: block;}
 }
 

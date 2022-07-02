@@ -1,4 +1,4 @@
-const requestURL = 'https://raw.githubusercontent.com/guriaserrana/wdd230/main/lesson9/chamber/data/data.json';
+const requestURL = 'https://raw.githubusercontent.com/guriaserrana/wdd230/main/lesson10/chamber/data/data.json';
 const cards = document.querySelector('.cards2');
 
 fetch(requestURL)
