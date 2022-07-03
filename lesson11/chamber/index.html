@@ -54,12 +54,11 @@
     <section class="titlepage"><h1 class="titlep">Home</h1></section>
 
     <picture class="banner">  
-        <img class="photo" src="images/lagesbannerA.webp" alt="Cathedral Lages"
-        srcset="images/lagesbannerA.webp, 
-        images/lagesbannerB.webp,
-        images/lagesbannerC.webp,
-        images/lagesbannerD.webp" width="1050" height="788"
-        sizes="(max-width: 400px) 400px, ((min-width: 401px) and (max-width: 650px)) 650px, ((min-width: 651px) and (max-width: 900px)) 900px, 1050px">     
+        <source media="(min-width: 1050px)" srcset="images/lagesbannerA.webp"> 
+        <source media="(min-width: 900px)" srcset="images/lagesbannerB.webp">
+        <source media="(min-width: 650px)" srcset="images/lagesbannerC.webp">
+        <source media="(min-width: 400px)" srcset="images/lagesbannerD.webp">         
+        <img class="photo" src="images/lagesbannerA.webp" alt="Cathedral Lages">           
     </picture>
     
     <div id="message">
@@ -116,7 +115,7 @@
         metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere 
         lacus quis dolor. </p>
 
-    <a href="join.html"><input type="jpsubmit" value="Join Chamber" class="jpsubmit"/></a>
+    <input type="jpsubmit" value="Join" class="jpsubmit"/>
     </section>
 
     <section class="event">
