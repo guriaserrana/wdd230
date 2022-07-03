@@ -33,7 +33,7 @@
     .spotlight2 img {width: 50%; height: auto;}    
     .join {grid-column: 1 / 2; grid-row: 4 / 5;}
     .join img {
-        width: 45%; 
+        width: 30%; 
         height: auto;    
         float:left;    
         margin-right: 2%;
