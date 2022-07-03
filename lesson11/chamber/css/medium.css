@@ -42,8 +42,10 @@
         display: block; /* smaller viewports only */
       }
 
+    /*------CONTACT---------*/
 
+    .titlecont {grid-column: 1 / 6; grid-row: 1 / 2; color: black;}
+    .contact {grid-column: 1 / 6; grid-row: 2 / 8;}
+    #infocont {grid-column: 1 / 6; grid-row: 8 / 12;}
 
-    
-
-}
+    }

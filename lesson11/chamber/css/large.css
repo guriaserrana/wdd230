@@ -54,10 +54,15 @@
     .cards2 section p {font-size:medium; font-weight: bold;}  
     .cards2 section a {font-size: 0.9rem; font-weight: bold;}
     .list img {max-width: 50%;}
-  
 
 
-   
+    /*------CONTACT---------*/
+
+.titlecont {grid-column: 1 / 6; grid-row: 1 / 2; color: black;}
+.contact {grid-column: 1 / 6; grid-row: 2 / 8;}
+#infocont {grid-column: 1 / 6; grid-row: 8 / 12;}
+
+ 
 
   
 }
