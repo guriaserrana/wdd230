@@ -54,12 +54,14 @@
     <section class="titlepage"><h1 class="titlep">Home</h1></section>
 
     <picture class="banner">  
-        <source media="(min-width: 1050px)" srcset="images/lagesbannerA.webp"> 
-        <source media="(min-width: 900px)" srcset="images/lagesbannerB.webp">
-        <source media="(min-width: 650px)" srcset="images/lagesbannerC.webp">
-        <source media="(min-width: 400px)" srcset="images/lagesbannerD.webp">         
-        <img class="photo" src="images/lagesbannerD.webp" alt="Cathedral Lages">           
+        <img class="photo" src="images/lagesbannerA.webp" alt="Cathedral Lages"
+        srcset="images/lagesbannerA.webp, 
+        images/lagesbannerB.webp,
+        images/lagesbannerC.webp,
+        images/lagesbannerD.webp" width="1050" height="788"
+        sizes="(max-width: 400px) 400px, ((min-width: 401px) and (max-width: 650px)) 650px, ((min-width: 651px) and (max-width: 900px)) 900px, 1050px">     
     </picture>
+    
     <div id="message">
         <br>
         <hr>
@@ -132,7 +134,7 @@
         <hr>            
         <figure>    
             <!-- <img src="images/placeholder.png" alt="current weather" id="weather-icon" /> -->
-            <img src="images/temperature.webp" alt="Sun and clounds"><span id="current-temp"></span> &deg;F 
+            <img src="images/temperature.webp" alt="Sun and clounds" width="100" height="100"><span id="current-temp"></span> &deg;F 
             <figcaption></figcaption>                      
         </figure>        
         <hr>

@@ -325,9 +325,10 @@ button {padding: 0.8rem;}
 
 .cards2 section h2 {font-size: 18px; text-shadow: 0 2px 3px rgba(22, 5, 5, 0.301);}
 .cards2 section p {font-size: small; font-weight: bold;}  
-.cards2 section a {font-size: 0.9rem; font-weight: bold;}
+.cards2 section a {font-size: 0.7rem; font-weight: bold;}
   
-.cards2 img {max-width: 100%; border-radius: 20px;}
+.cards2 img {max-width: 50%; border-radius: 20px;}
+.list img {max-width: 10%;}
 
 .grid {
     display: grid;
@@ -338,7 +339,7 @@ button {padding: 0.8rem;}
 .grid section {flex-direction: column; padding: 1rem;}  
 .grid section > * {margin: 0.3rem;}
 
-.list {display: flex; flex-direction: column;}
+.list {display: flex; flex-direction: column; }
 .list section {
       
     padding: 1rem;

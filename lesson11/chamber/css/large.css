@@ -50,6 +50,12 @@
         width: 150px;
     }
 
+    /*DIRECTORY*/
+    .cards2 section p {font-size:medium; font-weight: bold;}  
+    .cards2 section a {font-size: 0.9rem; font-weight: bold;}
+    .list img {max-width: 50%;}
+  
+
 
    
 
