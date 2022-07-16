@@ -25,31 +25,29 @@
 
 <body>
     <nav>
-        <a href="#">Hoteis</a>
+        <a href="index.html"><img src="image/logo.webp" alt="logo" width="200"></a>
+        
         <ul>
-            <li><a href="#sobre">Home</a></li>            
-            <li><a href="#fotos">Temple</a></li>
-            <li><a href="#serviços">Services</a></li>
-            <li><a href="#contato">Reservation</a></li>
+            <li class="active"><a href="index.html">Home</a></li>            
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
         </ul>
     </nav>
 
     <header id="topo">
-        <h1>Encontre Hotéis</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing 
-            and typesetting industry. Lorem Ipsum has been 
-            the industry's standard dummy text ever since 
-            the 1500s, when an unknown printer took a galley 
-            of type and scrambled it to make a type specimen 
-            book. It has survived not only five centuries, 
-            but also the leap into electronic typesetting, 
-            remaining essentially unchanged. It was popularised 
-            in the 1960s with the release of Letraset sheets 
-            containing Lorem Ipsum passages, and more recently 
-            with desktop publishing software like Aldus PageMaker 
-            including versions of Lorem Ipsum.</p>
-            <a href="#serviços">See more</a>
-    </header>
+        <h1>Temples Around The World</h1>
+        <p>"...There are over 160 operating temples in countries around the world. 
+            Dozens more are announced or under construction.
+            Regardless of the time in history, a temple of God is the most sacred 
+            place of worship in the world — a place where heaven touches the earth, 
+            a place where marvelous blessings are bestowed, and a place where we can 
+            feel closer to our Heavenly Father and Jesus Christ as we strive 
+            to become more like Them."</p>
+            <a href="temple.html">Learn more</a>
+    </header>  
+    
+    <section id="registrate"><a href="reservation.html" class="botao">Book Now</a></section>
 
     <section id="sobre">
         <h2>Company Description</h2>
@@ -62,95 +60,134 @@
             accommodations and services are available to anyone willing to abide 
             by the terms and policies outlined by the company.</p>
 
-            <a href="#contato" class="botao">Contrate agora</a>
+            <a href="reservation.html" class="botao">Book Now</a>
     </section>
+
+    <section class="date"></section>
+
+    <section class="weather">
+        <figure>             
+            Weather<img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"><span id="current-temp"></span> &deg;F 
+            <figcaption></figcaption>                      
+        </figure> 
+    </section>   
+   
+    
 
     <section id="serviços">
         <h2>Services</h2>
 
         <div>
             <img src="image/icon (1).png" alt="" width="50">
-            <h3>Imagens</h3>
-            <p>It is a long established fact that a reader will be 
-                distracted by the readable content of a page when 
-                looking at its layout. The point of using Lorem Ipsum 
-                is that it has a more-or-less normal distribution of 
-                letters, as opposed to using 'Content here, content
-                here', making it look like readable English.</p>
+            <h3>Parking</h3>
+            <p>We offer a quality and safety service during your trip. 
+                Choose from the valet parking service or the car rental 
+                service for the time you are on the road.</p>
+                
         </div>
 
         <div>
             <img src="image/icon (2).png" alt="" width="50">
-            <h3>Imagens</h3>
-            <p>It is a long established fact that a reader will be 
-                distracted by the readable content of a page when 
-                looking at its layout. The point of using Lorem Ipsum 
-                is that it has a more-or-less normal distribution of 
-                letters, as opposed to using 'Content here, content
-                here', making it look like readable English.</p>
+            <h3>Family History</h3>
+            <p>A service offered for free, which aims to bring you greater 
+                opportunities to grow your family tree. 
+                Our services will give you the opportunity to do research 
+                not only in Family History Centers, but also in our spaces 
+                at any of the hotels you choose to stay.</p>
+                
         </div>
 
         <div>
             <img src="image/icon (3).png" alt="" width="50">
-            <h3>Imagens</h3>
-            <p>It is a long established fact that a reader will be 
-                distracted by the readable content of a page when 
-                looking at its layout. The point of using Lorem Ipsum 
-                is that it has a more-or-less normal distribution of 
-                letters, as opposed to using 'Content here, content
-                here', making it look like readable English.</p>
+            <h3>Breakfast</h3>
+            <p>Enjoy the best breakfast at any of our hotels. We aim to provide 
+                you with practicality as well as save time. All this, at a much 
+                lower cost than any other non-affiliated hotel or even bakeries 
+                and restaurants.</p>
+               
         </div>  
         
         <div>
             <img src="image/icon (4).png" alt="" width="50">
-            <h3>Imagens</h3>
-            <p>It is a long established fact that a reader will be 
-                distracted by the readable content of a page when 
-                looking at its layout. The point of using Lorem Ipsum 
-                is that it has a more-or-less normal distribution of 
-                letters, as opposed to using 'Content here, content
-                here', making it look like readable English.</p>
-        </div>        
+            <h3>Exercise/workout room</h3>
+            <p>Take advantage of our gyms to exercise during your time at the hotel. 
+                We have personalized classes as well as equipment where you can do 
+                your own workout. We have free trial classes and special services 
+                with the best cost benefit.</p>
+                
+        </div>         
             
     </section>
+    <section id="seeservice"><a href="services.html">All Services</a></section>
+   
+    
 
     <section id="fotos">
-        <h2>Fotos</h2>
-        <img src="image/exemplo (1).webp" alt="">
-        <img src="image/exemplo (2).webp" alt="">
-        <img src="image/exemplo (3).webp" alt="">
-        <img src="image/exemplo (4).webp" alt="">
-        <img src="image/exemplo (5).webp" alt="">
-        <img src="image/exemplo (6).webp" alt="">
+        <h2>Gallery</h2>
+        <img src="image/exemplo (1).webp" alt="pool">
+        <img src="image/exemplo (2).webp" alt="breakfast">
+        <img src="image/exemplo (3).webp" alt="garden">
+        <img src="image/exemplo (4).webp" alt="meeting room">
+        <img src="image/exemplo (5).webp" alt="bedrooms">
+        <img src="image/exemplo (6).webp" alt="babysitting ">
     </section>
 
     
 
     <footer>
-        <br>
-        <a class="botao" href="#topo">Return</a>
+        
+        <div id="logofooter"><a href="index.html"><img src="image/logo.webp" alt="logo" width="250"></a></div>
+        
+        <div id="return"><a class="botao" href="#topo">Return</a></div>
         
         <section id="contato">
-            <h2>Contact</h2>
-            <p>Vem falar com a gente</p>
+            <h2>Contact Us!</h2>           
     
             <div>
                 <img src="image/tel.png" alt="phone">            
-                <p><a href="phone:49999887733">(49)999887733</a></p>
+                <p><a href="phone:1-888-000-2222">1-888-000-2222</a></p>
             </div>
     
             <div>
                 <img src="image/mail.png" alt="mail">            
-                <p><a href="email:hotel@gmail.com">hotel@gmail.com</a></p>
-            </div>             
+                <p><a href="email:temple_inn_suites@gmail.com">temple_inn_suites@gmail.com</a></p>
+            </div>    
+            
+            <section class="formcontact">
+                <h2 id="boxmessage">More Information:</h2>
+                <hr>
+                <form method="get" action="thankyou.html">
+                  <fieldset>
+                      <legend>Personal Information</legend>
+          
+                      <label class="info"> Full name:* <input type="text" name="fullname" required placeholder="Martin McFly"/></label>        
+                    
+                      <label class="info"> Email:* <input type="email" name="email" required placeholder="name@gmail.com"/></label>           
+          
+                      <label class="info"> Phone:* <input type="tel" name="phone" required placeholder="1-222-222-2222"/></label>
+          
+                      <label class="info">Message:
+                        <textarea name="message" rows="5" cols="50" id="ad-info"></textarea>
+                    </label>
+                    <input type="submit" value="Submit" class="submit" />
+                  </fieldset>
+                  
+                </form>
+            </section>
+            
+            <div>
+                <p>Location</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284822!2d-77.09772048527836!3d38.98325594948488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1657858417411!5m2!1spt-BR!2sbr" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
                 
         </section>
         
-        <p>&copy;<span id="year"></span> &bull; Ana Paula Ferreira &bull; Brazil</p>
+        <p>&copy;<span id="year"></span> &bull; BYU &bull; Ana Paula Ferreira &bull; Brazil</p>
         <p> Last Update: <span id="date"></span></p> 
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
     
 </body>
 </html>
