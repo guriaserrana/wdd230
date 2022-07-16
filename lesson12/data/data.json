@@ -6,7 +6,7 @@
         "zipcode": 0.5512300,      
         "phonenumber": 11.37237600,  
         "dedicated": "30 October 1978 rededicated - 22 February 2004",  
-        "closures": "[Monday, 1 August 2022 - Monday, 15 August 2022], [Wednesday, 7 September 2022], [Saturday, 24 December 2022], [Saturday, 31 December 2022]",           
+        "closures": ["Monday, 1 August 2022 - Monday, 15 August 2022", "Wednesday, 7 September 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],           
         "imageurl": "https://assets.ldscdn.org/ab/e3/abe3f249543aabd8901513c41a504cd6a4f7d347/sao_paulo_brazil_temple_lds.jpeg"
       },
       {
@@ -15,7 +15,7 @@
         "zipcode": 52.060380,        
         "phonenumber": 81.21294300,  
         "dedicated": "15 December 2000", 
-        "closures": "[Saturday, 1 October 2022], [Monday, 3 October 2022 - Monday, 17 October 2022], [Saturday, 24 December 2022], [Saturday, 31 December 2022]",            
+        "closures": ["Saturday, 1 October 2022", "Monday, 3 October 2022 - Monday, 17 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],            
         "imageurl": "https://assets.ldscdn.org/33/5f/335f543f540876f7d1e2eec7fd7fb8e9189015aa/recife_brazil_temple_lds.jpeg"
       },
       {
@@ -24,16 +24,16 @@
         "zipcode": 81.200110,        
         "phonenumber": 41.32046650,  
         "dedicated": "1 June 2008",  
-        "closures": "[Monday, 11 July 2022 - Monday, 19 September 2022], [Saturday, 1 October 2022], [Saturday, 24 December 2022], [Saturday, 31 December 2022]",           
+        "closures": ["Monday, 11 July 2022 - Monday, 19 September 2022", "Saturday, 1 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],           
         "imageurl": "https://assets.ldscdn.org/4d/ce/4dce0106a425fde976ecb4ed059877d74c3fe9b5/curitiba_brazil_temple.jpeg"
       },
       {
         "temple": "Paris France Temple",
         "address": "46 Boulevard Saint Antoine - Le Chesnay",
         "zipcode": 78150,       
-        "phonenumber": 970.737000,  
+        "phonenumber": 970737000,  
         "dedicated": "21 May 2017", 
-        "closures": "[Monday, 13 June 2022 - Monday, 22 August 2022], [Saturday, 1 October 2022 (Limited Operations)], [Saturday, 24 December 2022], [Saturday, 31 December 2022]",            
+        "closures": ["Monday, 13 June 2022 - Monday, 22 August 2022", "Saturday, 1 October 2022 (Limited Operations)", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],            
         "imageurl": "https://assets.ldscdn.org/e4/bf/e4bf989d13eb500735fb2871f90c0c1cf7dde419/paris_france_temple_exterior.jpeg"
       } 
           

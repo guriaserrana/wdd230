@@ -162,3 +162,58 @@ footer .botao {
 #send {
     text-align: center;
 }
+
+
+/* TEMPLES */
+
+#grid, #list {
+    font-size: 25px; 
+    background: linear-gradient(#436c89, #8b2c40);     
+    color:#FFFFFF
+}
+/*tamanho do botão*/
+button {padding: 0.8rem;}
+
+
+.card {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 0.8em;
+    padding: 1em;
+    margin: 0.5em;    
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.404);   
+    text-align: center;
+}
+.cards {padding: 1rem; min-width: 250px;}
+
+.card section h2 {font-size: 20px; text-shadow: 0 2px 3px rgba(22, 5, 5, 0.301);}
+.card section p {font-size:medium; font-weight: bold;}  
+.card section a {font-size: 0.7rem; font-weight: bold;}
+  
+.card img {max-width: 100%;}
+.list img {max-width: 100%;}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: stretch;
+    gap: 1rem;
+}
+.grid section {flex-direction: column; padding: 1rem;}  
+.grid section > * {margin: 0.3rem;}
+
+.list {display: flex; flex-direction: column; }
+.list section {
+      
+    padding: 1rem;
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+}  
+.list section > * {margin: 0 1rem;}  
+.list section p {display: none;}     
+  
+@media (min-width: 500px) {
+.list section img {display: block;}
+}
+
+

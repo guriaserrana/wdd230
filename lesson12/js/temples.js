@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://raw.githubusercontent.com/guriaserrana/wdd230/main/lesson12/data/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -24,19 +24,19 @@ function displayTemples(temple) {
   
     
     h2.textContent = temple.temple;     
-    p1.textContent = temple.address;   
-    p2.textContent = `zipecode: ${temple.zipcode}`;
-    p3.textContent = `phone: ${temple.phonenumber}`;
-    p4.textContent = temple.dedicated;
-    p5.textContent = temple.closures; 
+    p1.textContent = `Address: ${temple.address}`;   
+    p2.textContent = `Zipecode: ${temple.zipcode}`;
+    p3.textContent = `Phone: ${temple.phonenumber}`;
+    p4.textContent = `Dedicated: ${temple.dedicated}`;
+    p5.textContent = `Temple Closures: ${temple.closures}`; 
    
 
 
     // Build the image attributes by using the setAttribute method for the src, alt,
     // and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', temple.imageurl);
-    portrait.setAttribute('alt', 'logo for' + " " + temple.temple);
-    portrait.setAttribute('width', 200)
+    portrait.setAttribute('alt', 'logo for' + " " + temple.name);
+    portrait.setAttribute('width', 400)
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
