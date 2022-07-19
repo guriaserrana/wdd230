@@ -4,10 +4,7 @@ body {font-family: 'Nunito', sans-serif; color:#1c1c1c;}
 h1, h2, h3 {font-family: 'Asap', sans-serif; color:#000000;}
 
 
-
-
-
-/* Navegação */
+/* NAVEGAÇÃO -------------------------------------------------------------------------------------------------------*/
 
 nav {
     display: flex; 
@@ -40,7 +37,7 @@ nav ul li a {
     color: #FFFFFF;
 }
 
-/*Cabeçalho*/
+/*CABEÇALHO -------------------------------------------------------------------------------------------------------------------------*/
 
 header {
     display: flex;
@@ -55,6 +52,8 @@ header {
 }
 header h1 {color:#FFFFFF}
 header p {font-size: 20px; margin-bottom: 2em; margin-left: 100px; margin-right: 100px;}
+
+/* HOME --------------------------------------------------------------------------------------------------------------------------------*/
 
 #sobre {
     display: flex;
@@ -109,7 +108,7 @@ header p {font-size: 20px; margin-bottom: 2em; margin-left: 100px; margin-right:
     margin: 0 auto;
 }
 
-/*serviços*/
+/*SERVIÇOS ---------------------------------------------------------------------------------------------------------------------------*/
 
 #serviços, #serviços div {
     display: flex;
@@ -117,12 +116,13 @@ header p {font-size: 20px; margin-bottom: 2em; margin-left: 100px; margin-right:
     align-items: center;
     padding: 30px;
 }
+#serviços h2 {font-size: 35px; margin-bottom: 100px;}
 
 #seeservice {
     text-align: center;
 }
 
-/* Fotos*/
+/* FOTOS ---------------------------------------------------------------------------------------------------------------------------------*/
 
 #fotos {
     display: flex;
@@ -130,28 +130,23 @@ header p {font-size: 20px; margin-bottom: 2em; margin-left: 100px; margin-right:
     align-items: center;
     padding: 20px;
 }
-#fotos h2 {margin-bottom: 20px;}
+#fotos h2 {font-size: 35px; margin-top: 100px; margin-bottom: 100px;}
 #fotos img {width: 100%;}
 
-/*Contato*/
-#contato {
+
+/*RODAPÉ -------------------------------------------------------------------------------------------------------------------------------------*/
+footer {  
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-#contato h2 {color: #000000;}
-
-/*Rodapé*/
-footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px; 
     background-color: #436c89;
     color: #FFFFFF;
 }
-footer a {text-decoration: none; color: #00FFFF;}
+
+footer a {text-decoration: none; color: #FFFFFF;}
 footer .botao {
-    background-color: #f1f1f1; 
+    background-color: #FFFFFF; 
     color: #1c1c1c;        
     text-decoration:none;
     padding: 10px 30px;       
@@ -159,21 +154,67 @@ footer .botao {
     border-radius: 3px;    
 }
 
-#send {
-    text-align: center;
+/*THANKYOU --------------------------------------------------------------------------------------------------------*/
+#send p {display: flex; text-align: center;}
+
+
+
+
+/*FORM*/
+
+#boxmessage {text-align: center; margin-top: 10px; margin-bottom: 10px; font-size: 15px;}
+.formcontact {background-color: #ffffffb9; width: 300px;}
+
+fieldset {margin: 1rem 1rem; border-radius: 5px; background-color: #8b2c4131; color: #333; text-align: left;}
+  
+legend { margin: 0 0.5rem; padding: 0 0.5rem;}  
+label.info {display: block; padding-top: 0.5rem; font-size: 12px;}
+  
+label.info input, label.info select, label.info textarea {  
+    display: block;
+    font-size: 0.7rem;    
+    border-radius: 5px;
+    padding: 8px;    
+    color: black;
+    width: 92%;
+    max-width: 20rem;   
+    background-color: rgba(255, 253, 253, 0.699);
+    font-style: italic;    
+}  
+
+form label.info input:required {border: #333 solid 1px; border-radius: 5px;}  
+form label.info input:required:valid {border: #8b2c40 solid 2px;}  
+
+form input.submit {
+    border: none;
+    background: linear-gradient(#436c89, #8b2c40);  
+    color: #FFFFFF; 
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    margin-top: 10px;  
+    margin-left: 33%;
+    width: 35%;
+    max-width:20rem; 
+    
 }
 
 
-/* TEMPLES */
+/* TEMPLES ---------------------------------------------------------------------------------------------------------------------------------*/
+#about {margin-left: 2em; margin-right: 2em;}
+#about p {font-size: 18px; margin-top: 20px;}
 
 #grid, #list {
     font-size: 25px; 
-    background: linear-gradient(#436c89, #8b2c40);     
-    color:#FFFFFF
+    background: linear-gradient(#436c89, #8b2c40);   
+    border-color: #FFFFFF;  
+    color:#FFFFFF;
+    margin-top: 50px;   
 }
-/*tamanho do botão*/
-button {padding: 0.8rem;}
+#grid {
+    margin-left: 1em;
+}
 
+button {padding: 0.6rem; width: 120px;} /*tamanho do botão*/
 
 .card {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -186,11 +227,11 @@ button {padding: 0.8rem;}
 .cards {padding: 1rem; min-width: 250px;}
 
 .card section h2 {font-size: 20px; text-shadow: 0 2px 3px rgba(22, 5, 5, 0.301);}
-.card section p {font-size:medium; font-weight: bold;}  
+.card section p {font-size:medium; font-weight: bold; margin-top: 15px;}  
 .card section a {font-size: 0.7rem; font-weight: bold;}
   
 .card img {max-width: 100%;}
-.list img {max-width: 100%;}
+.list img {max-width: 30%;}
 
 .grid {
     display: grid;
@@ -215,5 +256,73 @@ button {padding: 0.8rem;}
 @media (min-width: 500px) {
 .list section img {display: block;}
 }
+
+/*RESERVATION -------------------------------------------------------------------------------------------------*/
+
+#topo-re {
+    background-image: url("../image/reservation.webp");
+}
+
+#title-registro {text-align: center; margin-top: 15px; margin-bottom: 15px; font-size: 18px;}
+.container-form {background-color: #FFFFFF;}
+
+#reserv {margin: 1rem 1rem; border-radius: 5px; background-color: #FFFFFF; color: #436c89; text-align: left;}
+  
+legend { margin: 0 0.5rem; padding: 0 0.5rem;}  
+label.info2 {display: block; padding-top: 0.5rem; font-size: 16px;}
+  
+label.info2 input, label.info2 select, label.info2 textarea {  
+    display: block;
+    font-size: 0.7rem;    
+    border-radius: 5px;
+    padding: 12px;    
+    color: black;
+    width: 92%;
+    max-width: 45rem;   
+    background-color: rgba(255, 253, 253, 0.699);
+    font-style: italic;      
+}  
+label.info2 select {max-width: 10rem;}
+#date1, #time1 {max-width: 15rem;}
+
+form label.info2 input:required {border: #436c89 solid 1px; border-radius: 5px;}  
+form label.info2 input:required:valid {border: #8b2c40 solid 2px;}  
+
+#btn-reserv {
+    border: none;
+    background: linear-gradient(#436c89, #8b2c40);  
+    color: #FFFFFF; 
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin-top: 10px;      
+    width: 30%;
+    max-width:20rem; 
+   
+    
+}
+
+.container-time {
+    background-color: #FFFFFF;
+    padding: 20px;
+    outline: 2px dashed #8b2c40;
+    outline-offset: -20px;
+    text-align: center;
+    border-radius: 30px;
+}
+.container-time p {font-size: 15px;}
+
+.heading {font-size: 25px; text-transform: uppercase; margin-top: 40px;}
+.heading-days { color: #8b2c40; font-size: 18px;}
+.heading-phone {font-size: 18px; margin-bottom: 40px;}
+
+
+.container2 {
+     display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 30px;
+}
+
+
 
 

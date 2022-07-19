@@ -20,6 +20,8 @@
     <!-- enhance-desktop -->
     <link href="css/large.css" rel="stylesheet">
 
+   
+
     <title>Final Project: The Temple Inn & Suites</title>
 </head>
 
@@ -39,7 +41,7 @@
        
     </header>
 
-    <section>
+    <section id="about">
         <p>Latter-day Saints are a temple-building and temple-loving people. 
             It has been so from the earliest days of the Church. 
             Through the Prophet Joseph Smith, the Lord declared that 
@@ -51,7 +53,7 @@
             a place where marvelous blessings are bestowed, and a place where we can 
             feel closer to our Heavenly Father and Jesus Christ as we strive 
             to become more like Them.</p>
-            <a target="blank" href="https://www.churchofjesuschrist.org/temples/why-latter-day-saints-build-temples?lang=eng">Why Latter-day Saints Build Temples</a>
+            <a target="blank" href="https://www.churchofjesuschrist.org/temples/why-latter-day-saints-build-temples?lang=eng">Learn more: Why Latter-day Saints Build Temples</a>
     </section>
   
     <section id="grid-list">
@@ -62,36 +64,66 @@
     </section>
         
         <section class="cards">
-            <div class="grid card"></div> 
-        </section>    
-    
+            <div class="grid card">
+        </div> 
+        
+        </section> 
+      
 
-    <footer>
-        <br>
-        <a class="botao" href="#topo">Return</a>
+        <footer>
         
-        <section id="contato">
-            <h2>Contact</h2>
-            <p>Vem falar com a gente</p>
-    
-            <div>
-                <img src="image/tel.png" alt="phone">            
-                <p><a href="phone:49999887733">(49)999887733</a></p>
-            </div>
-    
-            <div>
-                <img src="image/mail.png" alt="mail">            
-                <p><a href="email:hotel@gmail.com">hotel@gmail.com</a></p>
-            </div>             
+            <div id="logofooter"><a href="index.html"><img src="image/logo.webp" alt="logo" width="250"></a></div>
+            
+            <div id="return"><a class="botao" href="#topo">Return</a></div>
+            
+            <section id="contato">
+                <h2>Contact Us!</h2>           
+        
+                <div>
+                    <img src="image/tel.png" alt="phone">            
+                    <p><a href="phone:1-888-000-2222">1-888-000-2222</a></p>
+                </div>
+        
+                <div>
+                    <img src="image/mail.png" alt="mail">            
+                    <p><a href="email:temple_inn_suites@gmail.com">temple_inn_suites@gmail.com</a></p>
+                </div>    
                 
-        </section>
-        
-        <p>&copy;<span id="year"></span> &bull; Ana Paula Ferreira &bull; Brazil</p>
-        <p> Last Update: <span id="date"></span></p> 
-    </footer>
+                <section class="formcontact">
+                    <h2 id="boxmessage">More Information:</h2>
+                    <hr>
+                    <form method="get" action="thankyou.html">
+                      <fieldset>
+                          <legend>Personal Information</legend>
+              
+                          <label class="info"> Full name:* <input type="text" name="fullname" required placeholder="Martin McFly"/></label>        
+                        
+                          <label class="info"> Email:* <input type="email" name="email" required placeholder="name@gmail.com"/></label>           
+              
+                          <label class="info"> Phone:* <input type="tel" name="phone" required placeholder="1-222-222-2222"/></label>
+              
+                          <label class="info">Message:
+                            <textarea name="message" rows="5" cols="50" id="ad-info"></textarea>
+                        </label>
+                        <input type="submit" value="Submit" class="submit" />
+                      </fieldset>
+                      
+                    </form>
+                </section>
+                
+                <div>
+                    <p>Location</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284822!2d-77.09772048527836!3d38.98325594948488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1657858417411!5m2!1spt-BR!2sbr" 
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                    
+            </section>
+            
+            <p>&copy;<span id="year"></span> &bull; BYU &bull; Ana Paula Ferreira &bull; Brazil</p>
+            <p> Last Update: <span id="date"></span></p> 
+        </footer>
 
     <script src="js/script.js"></script>
     <script src="js/temples.js"></script>
-    
+   
 </body>
 </html>

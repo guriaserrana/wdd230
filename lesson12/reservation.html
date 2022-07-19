@@ -34,39 +34,141 @@
         </ul>
     </nav>
 
-    <header id="topo">
+    <header id="topo-re">
         <h1>Reservation</h1>       
-    </header>
+    </header> 
+     
 
-   
+    <section class="container2">
+        <div class="container-time">
+            <h2 class="heading">Time Open</h2>
+            <h3 class="heading-days">Monday-Friday</h3>
+            <P>24-hour service (subject to room availability)</P>
+            <p>6am - 11am (breakfast)</p>
+            <p>12am - 10pm (lunch/dinner)</p>
 
+            <h3 class="heading-days">Saturday and Sunday</h3>
+            <P>24-hour service (subject to room availability)</P>
+            <p>6am - 10am (breakfast)</p>
+            <p>11am - 10pm (lunch/dinner)</p>           
+
+            <h4 class="heading-phone">Call Us: (1)-888-000-2222</h4>
+        </div>
+    </section>
+
+    <section class="container-form">
+        <h2 id="title-registro">Reservation Online</h2>
+        
+            <form method="get" action="thankyou.html">
+                <fieldset id="reserv">
+                    <legend>Personal Information</legend>
+        
+                    <label class="info2"> Full name:* <input type="text" name="fullname" required placeholder="Jenna Rink"/></label>        
+                  
+                    <label class="info2"> Email:* <input type="email" name="email" required placeholder="name@gmail.com"/></label>        
+
+                    <label class="info2">Date <input id="date1" type="date" name="date"></label>
+
+                    <label class="info2">Time <input id="time1" type="time" name="time"></label>
+
+                    <label class="info2">Adults 
+                        <select name="select" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </label>
+
+                    <label class="info2">Children 
+                        <select name="select" id="#">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </label>
+                    <input id="btn-reserv" type="submit" value="Submit" class="submit" />
+                </fieldset>
+            </form>        
+    </section>
+
+    
     
 
     <footer>
-        <br>
-        <a class="botao" href="#topo">Return</a>
+        
+        <div id="logofooter"><a href="index.html"><img src="image/logo.webp" alt="logo" width="250"></a></div>         
         
         <section id="contato">
-            <h2>Contact</h2>
-            <p>Vem falar com a gente</p>
+            <h2>Contact Us!</h2>           
     
             <div>
                 <img src="image/tel.png" alt="phone">            
-                <p><a href="phone:49999887733">(49)999887733</a></p>
+                <p><a href="phone:1-888-000-2222">1-888-000-2222</a></p>
             </div>
     
             <div>
                 <img src="image/mail.png" alt="mail">            
-                <p><a href="email:hotel@gmail.com">hotel@gmail.com</a></p>
-            </div>             
+                <p><a href="email:temple_inn_suites@gmail.com">temple_inn_suites@gmail.com</a></p>
+            </div>                  
+        </section>
+
+        <section class="formcontact">
+            <h2 id="boxmessage">More Information:</h2>
+            <hr>
+            <form method="get" action="thankyou.html">
+              <fieldset>
+                  <legend>Personal Information</legend>
+      
+                  <label class="info"> Full name:* <input type="text" name="fullname" required placeholder="Martin McFly"/></label>        
                 
+                  <label class="info"> Email:* <input type="email" name="email" required placeholder="name@gmail.com"/></label>           
+      
+                  <label class="info"> Phone:* <input type="tel" name="phone" required placeholder="1-222-222-2222"/></label>
+      
+                  <label class="info">Message:
+                    <textarea name="message" rows="5" cols="50" id="ad-info"></textarea>
+                </label>
+                <input type="submit" value="Submit" class="submit" />
+              </fieldset>                                    
+            </form>
         </section>
         
-        <p>&copy;<span id="year"></span> &bull; Ana Paula Ferreira &bull; Brazil</p>
+        <section id="map">
+            <div>
+                <p>Location</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284822!2d-77.09772048527836!3d38.98325594948488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1657858417411!5m2!1spt-BR!2sbr" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
+        <section id="return">
+            <div><a class="botao" href="#topo">Return</a></div>
+        </section>
+        
+        
+        <p>&copy;<span id="year"></span> &bull; BYU &bull; Ana Paula Ferreira &bull; Brazil</p>
         <p> Last Update: <span id="date"></span></p> 
     </footer>
 
     <script src="js/script.js"></script>
+    
     
 </body>
 </html>

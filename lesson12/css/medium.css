@@ -34,14 +34,45 @@
     #fotos h2 {width: 100%; text-align: center;}
     #fotos img {width: 33%;}
 
-    /*Contato*/
-    #contato {
+
+/*reservation*/
+
+   .container2, .container-form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .container2 div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    /* .reservation {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         max-width: 500px;
         margin: 0 auto;
-    }
-    #contato h2, #contato p {width: 100%;}
+    } */
+
+
+   
+    
+ 
+
+   
+ 
+
+    
+        
+       
+   
+
+    
+
 
 }
