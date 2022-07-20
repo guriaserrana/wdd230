@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 37.5em) {
 
     /*Navegação*/
     nav {flex-direction: row; justify-content: space-around;}
@@ -8,7 +8,7 @@
     header {height: 600px; height: 60vh; justify-content: center;}
 
     /*Sobre*/
-    #sobre {
+    /* #sobre {
         height: 250px;
         height: 30vh;
         justify-content: center;
@@ -27,7 +27,7 @@
         flex-grow: 1;
         flex-basis: 150px;
         padding: 0 10px;
-    }
+    } */
 
     /*Fotos*/
     #fotos {flex-direction: row; flex-wrap: wrap;}
@@ -59,13 +59,11 @@
         margin: 0 auto;
     } */
 
-
    
     
  
 
-   
- 
+  
 
     
         

@@ -1,7 +1,7 @@
     // select HTML elements to edit
     const currentTemp = document.querySelector('#current-temp');   
     
-    const url = "//api.openweathermap.org/data/2.5/weather?id=3458930&appid=02b739bf12eedc884c1f3c1ef6f4146b&units=imperial";
+    const url = "//api.openweathermap.org/data/2.5/weather?id=3448439&appid=02b739bf12eedc884c1f3c1ef6f4146b&units=imperial";
     fetch(url)
     .then((response) => response.json())
     .then((weatherInfo) => {
@@ -12,3 +12,12 @@
         
         captionDesc.textContent = desc;
     });
+
+    function action(){
+
+        let closeable = document.querySelector('.closeable')
+
+        closeable.style.display = 'none';
+    }
+
+    
