@@ -68,28 +68,36 @@
 
         <div class="weather">
             <figure>             
-                São Paulo, BR <img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> <span id="current-temp"></span> &deg;F 
-                <figcaption></figcaption>                      
+                São Paulo, BR <img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> 
+                <span id="current-temp"></span> &deg;F                                       
             </figure> 
         </div>   
     </section>
 
     <section onclick="action()" class="closeable">
+        
+        <h2 id="box-close">Weather Forecast</h2>
+        <h3>Today:</h3>
+        <p>São Paulo, BR <span id="temp1">00</span>&deg;F</p>
         <figure>             
-            São Paulo, BR <img src="image/placeholder.png" alt="current weather" width="50" id="weather-icon"/><span id="current-temp"></span> &deg;F 
+            <img id="forecast" src="image/placeholder.png" alt="current weather" width="50"> 
             <figcaption></figcaption>                      
         </figure> 
+        <hr>             
+        <p>Wind Speed: <span id="speed">xx</span>mph</p>
+        <p>Humidity: <span id="hmdt"></span>%</p>
         <hr>
-        <p id="spd">Wind Speed: <span id="speed"></span> Km/h</p>
-        <p id="chill">Wind Chill: <span id="wch"></span> N/A</p>
-        <p id="humidity">Humidity: <span id="hmdt"></span>%</p>
-        <div onclick="close()" class="fechar">X</div>
+        <h3>Next days:</h3>
+        <p><img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> 
+        <span id="current-temp"></span><span id="temp2">00</span>&deg;F  
+        <img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> 
+        <span id="current-temp"></span><span id="temp3">00</span>&deg;F  
+        <img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> 
+        <span id="current-temp"></span><span id="temp4">00</span>&deg;F</p>
+        
+        <div onclick="close()" class="fechar">x_<div>
 
-    </section>
-
-    
-   
-    
+    </section>     
 
     <section id="svs">
         <h2>Services</h2>
@@ -194,7 +202,7 @@
         
         
         <section id="return">
-            <div><a class="botao" href="#topo">Return</a></div>
+            <div><a class="botao" href="#topo">| Return </a><a class="plan" href="siteplan.html"> | Site Plan |</a></div>
         </section>
               
         
@@ -204,6 +212,7 @@
 
     <script src="js/script.js"></script>
     <script src="js/weather.js"></script>
+    
     
 </body>
 </html>

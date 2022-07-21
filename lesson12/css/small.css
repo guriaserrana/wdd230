@@ -30,7 +30,7 @@ nav ul {
 nav ul li {text-align: center; width: 100%;}
 nav ul li a {display: inline-block; padding: 10px 0; width: 100%; text-decoration: none; color: #FFFFFF;}
 nav ul li a:hover {color: #8b2c40;}
-nav ul li.active a {background-color: #436c89; color: #f7f7f7;}
+nav ul li.active a {background-color: #436c89; color: #f7f7f7; border-radius: 30px;}
 
 /*HEADER -------------------------------------------------------------------------------------------------------------------------*/
 
@@ -101,32 +101,34 @@ header p {font-size: 18px; margin-bottom: 2em; margin-left: 80px; margin-right: 
 /*window*/
 .closeable {
     width: 300px;
-    height: 300px;
+    height: 450px;
     background-color: #FFFFFF;  
     border-radius: 10px;  
     text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 90%;
+    left: 80%;
     transform: translate(-50%, -50%);
     display: block;
     animation: animate;
-    animation-duration: 800ms;
+    animation-duration: 800ms;    
 }
 @keyframes animate{
     from{opacity: 1;}
     from{opacity: 0;}
 }
-.fechar {
-    width: 20px;
-    height: 20px;
-    background-color: #333;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
-    float: right;
-    margin-top: -75%;
-    text-align: center;
+.fechar {   
+    width: 300px;
+    height: 25px;
+    background-color: #000000;
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;    
+    margin-top: -145%;
+    font-size: larger;
+    text-align: right;    
 }
+#box-close {margin-top: 30px; color: #8b2c40;}
+figcaption {font-size: 12px;}
 
 
 /*HOME - Services */
@@ -348,21 +350,79 @@ form input.submit {
 #send p {display: flex; text-align: center;}
 
 /* FOOTER - return button to start page */
-#return {
-    border: none;   
-    background-color: #436c89;
-    font-size: 16px;    
-    border-radius: 5px;
-    padding: 0.8rem 1rem;
-    margin: 40%;
+#return {    
     margin-top: 20px;
-    margin-bottom: 20px;     
+    margin-bottom: 20px;
+    font-size: 18px;     
 }
 #return a { text-decoration: none;}
-.botao {color: #FFFFFF;}
+.botao, .plan {color: #000000;}
+.botao:hover, .plan:hover {color: #8b2c40;}
 
 
 
+
+/*SITE PLAN -----------------------------------------------------------------------------------*/
+
+.overview, .overview div, .logo-plan, .logo-plan div, 
+.site-map, .site-map div, 
+.wireframes, .wireframes div {    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    text-align: justify;    
+}
+.styles h2, h3, p, div {   
+    text-align: center;
+}
+
+.logo-plan img, .site-map img, .wireframes img {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px;
+    max-width: 80%;
+}
+.nav {text-align: center;}
+
+ 
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #436C89;
+    --secondary-color: #8b2c40;
+    --accent1-color: #FFFFFF;
+    --accent2-color: #000000;
+
+    --font_one: Nunito;
+    --font_two: Yellowtail;
+    --font_three: Asap;
+}
+
+.colors, .typography {      
+    width: 90%;    
+    margin: auto;
+    text-align: center;
+}
+.colors th, .typography {background-color: #999;}
+.colors td {width: 25%; height: 3em;}
+  
+.primary {background-color: var(--primary-color);}
+.secondary {background-color: var(--secondary-color);}
+.accent1 {background-color: var(--accent1-color);}
+.accent2 {background-color: var(--accent2-color); color: #FFFFFF;}
+
+
+.typography td {width: 10%; height: 2em;}
+  
+.font_one, .font_two, .font_three {
+background-color: var(--accent1-color);
+}
+
+
+
+    
 
 
 
