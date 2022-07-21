@@ -1,76 +1,71 @@
 @media only screen and (min-width: 37.5em) {
-
-    /*Navegação*/
-    nav {flex-direction: row; justify-content: space-around;}
-    nav ul {flex-direction: row; width: 70%;}
-
-    /*Cabeçalho*/
-    header {height: 600px; height: 60vh; justify-content: center;}
-
-    /*Sobre*/
-    /* #sobre {
-        height: 250px;
-        height: 30vh;
-        justify-content: center;
-        min-height: 250px;
-        padding: 40px;
-    }
-    #serviços {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    #serviços h2 {text-align: center; width: 100%;}
-    #serviços div {
-        flex-grow: 1;
-        flex-basis: 150px;
-        padding: 0 10px;
-    } */
-
-    /*Fotos*/
-    #fotos {flex-direction: row; flex-wrap: wrap;}
-    #fotos h2 {width: 100%; text-align: center;}
-    #fotos img {width: 33%;}
-
-
-/*reservation*/
-
-   .container2, .container-form {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    .container2 div {
-        flex-grow: 1;
-        flex-basis: 150px;
-        padding: 0 10px;
-    }
-
-    /* .reservation {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 500px;
-        margin: 0 auto;
-    } */
-
-   
     
- 
 
-  
+/* NAVEGAÇÃO -------------------------------------------------------------------------------------------------------*/
 
-    
-        
-       
-   
+nav {flex-direction: row; justify-content: space-around;}
+nav ul {flex-direction: row; width: 70%;}
 
-    
+/*HEADER -------------------------------------------------------------------------------------------------------------------------*/
+
+header {height: 600px; height: 60vh; justify-content: center;}
+
+/* HOME PAGE --------------------------------------------------------------------------------------------------------------------------------*/
+
+#sobre {
+    height: 250px;
+    height: 30vh;
+    justify-content: center;
+    min-height: 250px;
+    padding: 40px;
+}
+
+/*window*/
+.closeable {top: 100%; left: 70%;}
+
+/*HOME - Services */
+
+#svs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#svs div {flex-grow: 1; flex-basis: 200px; padding: 0 20px;}
+#svs p {text-align: justify;}
+
+
+/* HOME- gallery */
+#fotos {flex-direction: row; flex-wrap: wrap;}
+#fotos h2 {width: 100%; text-align: center;}
+#fotos img {width: 50%;}
+
+
+/* TEMPLES PAGE ---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*SERVICES PAGE ---------------------------------------------------------------------------------------------------------------------------*/
+
+.serviços {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.serviços div {flex-grow: 1; flex-basis: 200px; padding: 0 10px;}
+.serviços p {text-align: justify;}
+
+/*FOOTER -------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer {display: grid;}
+#social, #logofooter {grid-column: 1 / 3;}
+.formcontact {grid-column: 1 / 2; grid-row: 3 / 4;}
+#map {margin-top: -20px; grid-column: 2 / 3; grid-row: 3 / 4;}
+#contato {grid-column: 1 / 3; grid-row: 4;}
+#return, #plan {grid-column: 1 / 3; grid-row: 5;}
+#dados {grid-column: 1 / 3; grid-row: 6;} 
 
 
 }
