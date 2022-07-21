@@ -79,7 +79,8 @@ header p {font-size: 18px; margin-bottom: 2em; margin-left: 80px; margin-right: 
     animation-fill-mode: forwards;
     padding: 10px 30px;  
     font-size: .9em;
-    border-radius: 3px;    
+    border-radius: 3px; 
+    margin-left: 20px;   
 }
 
 @keyframes permanentBtn {
