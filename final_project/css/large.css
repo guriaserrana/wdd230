@@ -1,0 +1,68 @@
+@media only screen and (min-width: 60em) {
+
+/* NAVEGAÇÃO -------------------------------------------------------------------------------------------------------*/
+
+
+
+/*HEADER -------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* HOME PAGE --------------------------------------------------------------------------------------------------------------------------------*/
+
+/*window*/
+.closeable {top: 100%; left: 80%;}
+
+/*HOME - Services */
+
+#svs {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;    
+    margin: 0 auto;
+}
+#svs div {flex-grow: 1; flex-basis: 200px; padding: 0 20px;}
+#svs p {text-align: justify;}
+
+
+/* HOME- gallery */
+#fotos {flex-direction: row; flex-wrap: wrap;}
+#fotos h2 {width: 100%; text-align: center;}
+#fotos img {width: 33%;}
+
+
+/* TEMPLES PAGE ---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*SERVICES PAGE ---------------------------------------------------------------------------------------------------------------------------*/
+
+.serviços {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.serviços div {flex-grow: 1; flex-basis: 200px; padding: 0 10px;}
+.serviços p {text-align: justify;}
+
+/*FOOTER -------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer {display: grid;}
+#logofooter {grid-column: 1 / 4; grid-row: 1 / 2;}
+#social {grid-column: 1 / 4; grid-row: 2 / 3;}
+#boxmessage {grid-column: 1 / 2; grid-row: 3 / 4 ;}
+.formcontact {grid-column: 1 / 2; grid-row: 4 / 5;}
+#contato {grid-column: 2 / 3; grid-row: 4 / 5;}
+#map {grid-column: 3 / 4; grid-row: 4 / 5;}
+
+#return, #plan {grid-column: 1 / 4; grid-row: 5 / 6;}
+#dados {grid-column: 1 / 4; grid-row: 6 / 7;}  
+
+
+}
+
+
+
+
+

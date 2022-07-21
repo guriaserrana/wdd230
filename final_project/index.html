@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page">
+    <meta name="author" content="Ana Paula Ferreira">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
+    <title>Final Project: The Temple Inn & Suites</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img src="image/logo.webp" alt="logo" width="150"></a>
+        
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>            
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+        </ul>
+    </nav>
+
+    <header id="topo">
+        <h1>Temples Around The World</h1>
+        <p>"...There are over 160 operating temples in countries around the world. 
+            Dozens more are announced or under construction.
+            Regardless of the time in history, a temple of God is the most sacred 
+            place of worship in the world — a place where heaven touches the earth, 
+            a place where marvelous blessings are bestowed, and a place where we can 
+            feel closer to our Heavenly Father and Jesus Christ as we strive 
+            to become more like Them."</p>
+            <a href="temple.html">Learn more</a>
+    </header>  
+    
+    <section id="registrate"><a href="reservation.html" class="botao">Book Now</a></section>
+
+    <section id="sobre">
+        <h2>Company Description</h2>
+        <p>The Temple Inn & Suites is a hotel chain headquartered in Bethesda, 
+            MD that builds and manages specialized hotel accommodations 
+            near temple locations of The Church of Jesus Christ of Latter-day Saints 
+            around the world. The owner-operated company caters to temple workers, 
+            patrons, and their families by providing specialized services and 
+            accommodations that meet the needs of those patrons. The hotel 
+            accommodations and services are available to anyone willing to abide 
+            by the terms and policies outlined by the company.</p>
+
+            <a href="reservation.html" class="botao">Book Now</a>
+    </section>
+
+    <section class="time-home">
+        <div class="date"></div>
+
+        <div class="weather">
+            <figure>             
+                São Paulo, BR <img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> 
+                <span id="current-temp"></span> &deg;F                                       
+            </figure> 
+        </div>   
+    </section>
+
+    <section onclick="action()" class="closeable">
+        
+        <h2 id="box-close">Weather Forecast</h2>
+        <h3>Today:</h3>
+        <p>São Paulo, BR <span id="temp1">00</span>&deg;F</p>
+        <figure>             
+            <img id="forecast" src="image/placeholder.png" alt="current weather" width="50"> 
+            <figcaption></figcaption>                      
+        </figure> 
+        <hr>             
+        <p>Wind Speed: <span id="speed">xx</span>mph</p>
+        <p>Humidity: <span id="hmdt"></span>%</p>
+        <hr>
+        <h3>Next days:</h3>
+        <p><img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> 
+        <span id="current-temp"></span><span id="temp2">00</span>&deg;F  
+        <img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> 
+        <span id="current-temp"></span><span id="temp3">00</span>&deg;F  
+        <img src="image/temperature.webp" alt="Sun and clounds" width="30" height="30"> 
+        <span id="current-temp"></span><span id="temp4">00</span>&deg;F</p>
+        
+        <div onclick="close()" class="fechar">x_<div>
+
+    </section> 
+
+    <h2 id="serviços">Services</h2>
+    <section id="svs">   
+
+        <div>
+            <img src="image/breakfast.webp" alt="breakfast" width="50">
+            <h3>Breakfast</h3>
+            <p>Enjoy the best breakfast at any of our hotels. We aim to provide 
+                you with practicality as well as save time. All this, at a much 
+                lower cost than any other non-affiliated hotel or even bakeries 
+                and restaurants.</p>               
+        </div>  
+
+        <div>
+            <img src="image/exercise.webp" alt="exercise" width="50">
+            <h3>Exercise/workout room</h3>
+            <p>Take advantage of our gyms to exercise during your time at the hotel. 
+                We have personalized classes as well as equipment where you can do 
+                your own workout. We have free trial classes and special services 
+                with the best cost benefit.</p>                
+        </div>
+
+        <div>
+            <img src="image/kitchenette.webp" alt="" width="50">
+            <h3>Kitchenette suites</h3>
+            <p>We offer full-time temple missionaries long-term accommodation in kitchen 
+                suites at a low cost.</p>                
+        </div>         
+
+        <div>
+            <img src="image/wedding.webp" alt="wedding" width="50">
+            <h3>Wedding reception hall</h3>
+            <p>We offer a hall and buffet for weddings. It is necessary to schedule in advance. 
+                Check our prices for Saturdays and holidays.</p>                
+        </div>              
+            
+    </section>
+    <section id="seeservice"><a href="services.html">All Services</a></section>
+
+
+    <section id="fotos">
+        <h2>Gallery</h2>
+        <img src="image/exemplo (1).webp" alt="pool">
+        <img src="image/exemplo (2).webp" alt="breakfast">
+        <img src="image/exemplo (3).webp" alt="garden">
+        <img src="image/exemplo (4).webp" alt="meeting room">
+        <img src="image/exemplo (5).webp" alt="bedrooms">
+        <img src="image/exemplo (6).webp" alt="babysitting ">
+    </section>    
+
+    <footer>
+        
+        <div id="logofooter"><a href="index.html"><img src="image/logo.webp" alt="logo" width="200"></a></div>  
+
+        <ul id="social">
+            <li class="social"><a target="blank" href="https://www.facebook.com/"><img src="image/facebk.png" alt="facebookIcon" width="30"></a></li>
+            <li><a target="blank" href="https://www.instagram.com/"><img src="image/insta.png" alt="instagramIcon" width="30"></a></li>
+            <li><a target="blank" href="https://www.twitter.com/"><img src="image/twit.png" alt="twitterIcon" width="30"></a></li>
+        </ul>
+
+        
+        <h2 id="boxmessage">Contact Us!</h2>
+
+        <section class="formcontact">                                
+                <div>
+                    <form method="get" action="thankyou.html">
+                        <fieldset>
+                            <legend>Personal Information</legend>
+                
+                            <label class="info"> Full name:* <input type="text" name="fullname" required placeholder="Martin McFly"/></label>        
+                        
+                            <label class="info"> Email:* <input type="email" name="email" required placeholder="name@gmail.com"/></label>           
+                
+                            <label class="info"> Phone:* <input type="tel" name="phone" required placeholder="1-222-222-2222"/></label>
+                
+                            <label class="info">Message:* <textarea name="message" rows="5" cols="50" id="ad-info"></textarea></label>
+
+                            <input type="submit" value="Submit" class="submit" />
+                        </fieldset>                                    
+                    </form>
+                </div>            
+        </section>                
+        
+        <section id="contato">     
+            <div>
+                <img src="image/tel.png" alt="phone">            
+                <p><a href="phone:1-888-000-2222">1-888-000-2222</a></p>
+            </div>
+    
+            <div>
+                <img src="image/mail.png" alt="mail">            
+                <p><a href="email:temple_inn_suites@gmail.com">temple_inn_suites@gmail.com</a></p>
+            </div>    
+        </section>
+        
+        <section id="map">
+            <div>
+                <p>Location</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284822!2d-77.09772048527836!3d38.98325594948488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1657858417411!5m2!1spt-BR!2sbr" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>  
+        
+        
+        <section id="return">
+            <div><a class="botao" href="#topo">| Return </a><a class="plan" href="siteplan.html"> | Site Plan |</a></div>
+        </section>
+              
+        <section id="dados">
+            <p>&copy;<span id="year"></span> &bull; BYU &bull; Ana Paula Ferreira &bull; Brazil</p>
+            <p> Last Update: <span id="date"></span></p> 
+        </section>
+        
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
+    
+    
+</body>
+</html>
